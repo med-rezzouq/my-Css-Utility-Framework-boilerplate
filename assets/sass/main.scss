@@ -1,0 +1,7 @@
+@use 'layout';
+@use '../../node_modules/bootstrap/scss/bootstrap';
+
+body{
+    width : layout.$bodyWidth;
+    background-color:layout.$bodyBg;
+}
