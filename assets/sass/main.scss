@@ -1,7 +1,37 @@
 @use 'layout';
-@use '../../node_modules/bootstrap/scss/bootstrap';
+@use 'helpers' as helpers;
+@use 'base';
+@use 'components';
 
-body{
-    width : layout.$bodyWidth;
-    background-color:layout.$bodyBg;
+
+
+// partie header
+ul.flex-nav {
+    margin-top:1rem !important;
+    padding:0;
+}
+
+.ht-100{
+    height:100px;
+}
+
+.flex-nav li{
+    display:inline-block;
+    list-style-type: none;
+    margin-left:1rem;
+}
+
+
+.header .img-indh{
+    margin-left:1rem;
+
+}
+// fin partie header
+
+// partie welcome header
+
+.welcome-overlay::after{
+    height:800px;
+    background:url('../images/welcomebg.svg');
+
 }

@@ -1,0 +1,14 @@
+@use '../helpers' as helpers;
+
+*, ::before, ::after {
+    box-sizing: none;
+}
+
+a{
+    text-decoration: none;
+    color:helpers.$blueInit;
+}
+
+a:active,a:hover{
+    color:none;
+}

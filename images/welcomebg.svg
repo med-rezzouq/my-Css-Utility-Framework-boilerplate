@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1094" viewBox="0 0 1920 1094">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_100" data-name="Rectangle 100" width="1920" height="1094" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.287" y1="-0.301" x2="1.079" y2="1.053" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0961aa"/>
+      <stop offset="1" stop-color="#64d88d"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Bg_Shape" data-name="Bg Shape" d="M1279.592,1132.349s.721,39.053,0,66c-48.549,18.552-344.722-13.235-447.147-99.04C640.639,938.625,379.407,966.051,229.847,915.69s-74.653-122.1,12.049-255.342c11.84-.7,1037.7-.31,1037.7-.31v472.312Z" transform="translate(-144.421 -659.93)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_3" data-name="Groupe de masques 3" opacity="0.559" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="516.5" cy="434" rx="516.5" ry="434" transform="translate(1076 -190)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="261.5" cy="220.5" rx="261.5" ry="220.5" transform="translate(284 587)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="183.5" cy="155" rx="183.5" ry="155" transform="translate(24 15)" fill="url(#linear-gradient)"/>
+    <g id="Groupe_de_masques_2" data-name="Groupe de masques 2" transform="translate(1527 -635.287)" clip-path="url(#clip-path-2)">
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="135" cy="140" rx="135" ry="140" transform="translate(873.751 176.688)" fill="rgba(255,255,255,0.04)"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="135" cy="140" rx="135" ry="140" transform="translate(364.751 -77.837)" fill="rgba(255,255,255,0.04)"/>
+      <path id="Tracé_1321" data-name="Tracé 1321" d="M4.8,749s106.25-199.24,218.26-175.494S489.864,147.54,629.855,318.49,931.346,5.948,931.346,5.948" transform="matrix(0.588, 0.809, -0.809, 0.588, 653.47, -472.865)" fill="none" opacity="0.08"/>
+      <path id="Tracé_1322" data-name="Tracé 1322" d="M5.034,918.644s146.444-314.85,291.543-274.418S665.623,294.8,784.286,348.832c14.952,6.808,30.973,6.457,47.771.568C946.888,309.145,1089.031,5.952,1089.031,5.952" transform="matrix(0.616, 0.788, -0.788, 0.616, 562.133, -513.087)" fill="none" opacity="0.08"/>
+    </g>
+    <rect id="Rectangle_99" data-name="Rectangle 99" width="1920" height="1094" fill="#fff"/>
+  </g>
+</svg>
