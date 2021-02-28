@@ -1,7 +1,11 @@
 @use '../helpers' as helpers;
 
+*{
+    font-family: "Heebo";
+}
 *, ::before, ::after {
     box-sizing: none;
+   
 }
 
 a{

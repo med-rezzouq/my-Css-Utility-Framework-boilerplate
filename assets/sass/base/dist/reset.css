@@ -1,0 +1,16 @@
+* {
+  font-family: "Heebo";
+}
+
+*, ::before, ::after {
+  box-sizing: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0969C9;
+}
+
+a:active, a:hover {
+  color: none;
+}

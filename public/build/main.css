@@ -144,6 +144,10 @@
   width: 100%;
 }
 
+* {
+  font-family: "Heebo";
+}
+
 *, ::before, ::after {
   box-sizing: none;
 }
@@ -159,6 +163,14 @@ a:active, a:hover {
 
 .font-bold {
   font-weight: 800;
+}
+
+.font-xxl {
+  font-size: 2.5rem;
+}
+
+.font-heebo {
+  font-family: "Heebo sans-serif";
 }
 
 .button-md {
@@ -184,6 +196,8 @@ ul.flex-nav {
   display: inline-block;
   list-style-type: none;
   margin-left: 1rem;
+  font-family: "Heebo";
+  font-weight: 500;
 }
 
 .header .img-indh {
