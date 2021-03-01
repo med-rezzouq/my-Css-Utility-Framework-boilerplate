@@ -6,6 +6,10 @@
   box-sizing: none;
 }
 
+.dnone {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: #0969C9;

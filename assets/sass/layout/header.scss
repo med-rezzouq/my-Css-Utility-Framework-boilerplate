@@ -1,1 +1,73 @@
-$bodyWidth : 90%;
+@use '../helpers' as helpers;
+// partie header
+ul.flex-nav {
+    margin-top:1rem !important;
+    padding:0;
+    display:none;
+}
+
+nav.nav-desktop{
+    display:none;
+}
+
+.ht-100{
+    height:100px;
+}
+
+.flex-nav li{
+    display:inline-block;
+    list-style-type: none;
+    margin-left:1rem;
+    font-family:"Poppins";
+    font-weight:500;
+}
+
+
+.header .img-indh{
+    display:none;
+    margin-left:1rem;
+
+}
+// fin partie header
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: helpers.$blueDark;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 0px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: helpers.$whitePrimary;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 1rem;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

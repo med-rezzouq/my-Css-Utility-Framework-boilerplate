@@ -1,3 +1,74 @@
+ul.flex-nav {
+  margin-top: 1rem !important;
+  padding: 0;
+  display: none;
+}
+
+nav.nav-desktop {
+  display: none;
+}
+
+.ht-100 {
+  height: 100px;
+}
+
+.flex-nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 1rem;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.header .img-indh {
+  display: none;
+  margin-left: 1rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0D3A74;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 0px 8px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 1rem;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
 .footer-section {
   background: #4B5164;
   color: white;
@@ -13,6 +84,20 @@
   color: #0D3A74;
 }
 
+@media (min-width: 1024px) {
+  ul.flex-nav {
+    display: inline-block;
+  }
+
+  nav.nav-desktop {
+    display: inline;
+  }
+}
+@media (min-width: 1280px) {
+  .header .img-indh {
+    display: inline;
+  }
+}
 .blueInit {
   color: #0969C9;
 }
@@ -182,6 +267,10 @@
 
 *, ::before, ::after {
   box-sizing: none;
+}
+
+.dnone {
+  display: none;
 }
 
 a {
@@ -765,6 +854,39 @@ body, html {
   text-align: right;
 }
 
+h1.section-h1-center {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  display: inline-block;
+  margin: auto;
+  background: url(/images/section-h1.svg?10585e30abbf464601357208d5f391a2) no-repeat;
+  background-position-y: 95%;
+  background-position-x: center;
+}
+
+h3.section-h3-center {
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  display: inline-block;
+  margin: auto;
+  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
+  background-position-y: 95%;
+  background-position-x: center;
+}
+
+h3.section-h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  display: inline-block;
+  margin: auto;
+  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
+  background-position-y: 95%;
+  background-position-x: 0%;
+}
+
 .button-md {
   border-radius: 1.2rem;
 }
@@ -789,6 +911,53 @@ a.button-md-light:hover {
   background: #0961AA;
 }
 
+.btn-menu::after {
+  transform: translate3d(0, 7px, 0);
+}
+
+.btn-menu::before, .btn-menu::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  transform-origin: 50% 50%;
+}
+
+.btn-menu::before, .btn-menu::after, .btn-menu span {
+  top: 50%;
+  background-color: #0D3A74;
+  color: #0D3A74;
+  transition: all ease 0.238s;
+}
+
+.btn-menu::before {
+  transform: translate3d(0, -7px, 0);
+}
+
+.btn-menu span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  overflow: hidden;
+  text-indent: 200%;
+}
+
+.btn-menu {
+  display: block;
+}
+
+.btn-menu {
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+  width: 26px;
+  height: 16px;
+  color: #0D3A74;
+  transition: all ease 0.238s;
+}
+
 .card-box {
   padding: 2rem;
   background: #FCFCFC;
@@ -802,60 +971,11 @@ a.button-md-light:hover {
   max-height: 250px;
 }
 
-h1.section-h1-center {
-  font-weight: 700;
-  font-size: 2rem;
-  padding: 0.5rem 0;
-  display: inline-block;
-  margin: auto;
-  background: url(/images/section-h1.svg?7402058c6d58db154d7084011aa793f5) no-repeat;
-  background-position-y: 95%;
-  background-position-x: center;
+@media (min-width: 1024px) {
+  .flex-burger {
+    display: none;
+  }
 }
-
-h3.section-h3-center {
-  font-weight: 700;
-  font-size: 1.4rem;
-  padding: 0.5rem 0;
-  display: inline-block;
-  margin: auto;
-  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
-  background-position-y: 95%;
-  background-position-x: center;
-}
-
-h3.section-h3 {
-  font-weight: 600;
-  font-size: 1.4rem;
-  padding: 0.5rem 0;
-  display: inline-block;
-  margin: auto;
-  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
-  background-position-y: 95%;
-  background-position-x: 0%;
-}
-
-ul.flex-nav {
-  margin-top: 1rem !important;
-  padding: 0;
-}
-
-.ht-100 {
-  height: 100px;
-}
-
-.flex-nav li {
-  display: inline-block;
-  list-style-type: none;
-  margin-left: 1rem;
-  font-family: "Poppins";
-  font-weight: 500;
-}
-
-.header .img-indh {
-  margin-left: 1rem;
-}
-
 .pourquoi-irchad-section img {
   height: 120px;
   width: 190px;

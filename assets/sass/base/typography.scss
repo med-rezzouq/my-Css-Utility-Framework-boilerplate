@@ -21,3 +21,39 @@
 .text-right{
     text-align:right;
 }
+
+
+h1.section-h1-center{
+    font-weight:700;
+    font-size:2rem;
+    padding:0.5rem 0;
+    display:inline-block;
+    margin:auto;
+    background:url('../../images/section-h1.svg') no-repeat;
+    background-position-y: 95%;
+    background-position-x: center;
+}
+
+
+h3.section-h3-center{
+    font-weight:700;
+    font-size:1.4rem;
+    padding:0.5rem 0;
+    display:inline-block;
+    margin:auto;
+    background:url('../../images/section-h3.svg') no-repeat;
+    background-position-y: 95%;
+    background-position-x: center;
+}
+
+
+h3.section-h3{
+    font-weight:600;
+    font-size:1.4rem;
+    padding:0.5rem 0;
+    display:inline-block;
+    margin:auto;
+    background:url('../../images/section-h3.svg') no-repeat;
+    background-position-y: 95%;
+    background-position-x: 0%;
+}

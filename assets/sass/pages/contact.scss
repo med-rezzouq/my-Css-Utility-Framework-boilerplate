@@ -1,0 +1,21 @@
+@use '../helpers' as helpers;
+//contact secton
+.contact-section .field-row{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    }
+    .contact-section .field-input{
+        padding:0 3rem;
+        margin:1rem 0;
+        width:100%;
+    
+    }
+    
+    .contact-section .form-input{
+        width:100%;
+        padding:1rem;
+        font-size:1rem;
+        border:1px solid helpers.$greyBlue;
+    }
+    //contact secton

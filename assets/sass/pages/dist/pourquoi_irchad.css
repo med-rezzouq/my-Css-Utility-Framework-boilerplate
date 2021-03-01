@@ -1,0 +1,12 @@
+.pourquoi-irchad-section img {
+  height: 120px;
+  width: 190px;
+}
+
+.pourquoi-irchad-section article.ml {
+  margin-left: 2rem;
+}
+
+.pourquoi-irchad-section article.mr {
+  margin-right: 2rem;
+}

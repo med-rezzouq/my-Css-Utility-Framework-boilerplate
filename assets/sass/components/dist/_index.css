@@ -1,0 +1,36 @@
+.button-md {
+  border-radius: 1.2rem;
+}
+
+a.button-md:hover {
+  background: #0961AA;
+}
+
+.button-md-ligh {
+  border-radius: 1.2rem;
+}
+
+a.button-md-light:hover {
+  color: #aeaeae;
+}
+
+.button-md-cercle {
+  border-radius: 50%;
+}
+
+.button-md-cercle:hover {
+  background: #0961AA;
+}
+
+.card-box {
+  padding: 2rem;
+  background: #FCFCFC;
+  width: 100%;
+  box-shadow: 0 0px 8px -4px gray;
+}
+
+.card-box img {
+  min-height: 250px;
+  height: 250px;
+  max-height: 250px;
+}

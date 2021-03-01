@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Sass project</title>
+    <script src="../assets/js/main.js"></script>
+    <title>IRCHAD LAARACHE</title>
   </head>
   <body>
     <header>
@@ -23,6 +24,7 @@
             </div>
             <div class="column-9 row-flex justify-between">
               <div class="column-grow flex-row align-center">
+                <nav class="nav-desktop">
                 <ul class="flex-nav blueInit">
                   <li><a href="#">À Propos</a></li>
                   <li><a href="#">Programme</a></li>
@@ -35,10 +37,18 @@
                       >Se connécter</a
                     >
                   </li>
-                </ul>
+                </ul></nav>
               </div>
               <div class="column-grow">
+                <ul class="flex-burger"> 
+                  <li>
+                  <div class="btn-menu" onclick="openNav()"><span onclick="openNav()"></span></div>  
+                 </li>
+                </ul>
                 <ul class="flex-nav">
+                  <li>
+                   
+                  </li>
                   <li>
                     <a href="" class="button-md-cercle blueDarkBg white p2"
                       >AR</a
@@ -52,6 +62,29 @@
                     >
                   </li>
                 </ul>
+
+                <nav class="nav-mobile">
+
+                
+                  <div id="mySidenav" class="sidenav">  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="blueInit px4">
+                      <li><a href="#">À Propos</a></li>
+                      <li><a href="#">Programme</a></li>
+                      <li><a href="#">Soumissioner un projet</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">contact</a></li>
+    
+                      <li>
+                        <a href="#" class="button-md white blueDarkBg py2 px3"
+                          >Se connécter</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+
+
+                </nav>
               </div>
             </div>
           </div>

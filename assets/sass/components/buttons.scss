@@ -31,3 +31,56 @@ a.button-md-light:hover{
 .button-md-cercle:hover{
     background:helpers.$blueMiddle;
 }
+
+
+//burger menu
+
+.btn-menu::after {
+    -webkit-transform: translate3d(0, 7px, 0);
+    transform: translate3d(0, 7px, 0);
+}
+.btn-menu::before, .btn-menu::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.btn-menu::before, .btn-menu::after, .btn-menu span {
+    top:50%;
+    background-color: helpers.$blueDark;
+    color:helpers.$blueDark;
+    -webkit-transition: all ease 0.238s;
+    -moz-transition: all ease 0.238s;
+    transition: all ease 0.238s;
+}
+.btn-menu::before {
+    -webkit-transform: translate3d(0, -7px, 0);
+    transform: translate3d(0, -7px, 0);
+}.btn-menu span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    overflow: hidden;
+    text-indent: 200%;
+}
+
+.btn-menu {
+    display: block;
+}
+.btn-menu {
+
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+    width: 26px;
+    height: 16px;
+    color:helpers.$blueDark;
+    -webkit-transition: all ease 0.238s;
+    -moz-transition: all ease 0.238s;
+    transition: all ease 0.238s;}
