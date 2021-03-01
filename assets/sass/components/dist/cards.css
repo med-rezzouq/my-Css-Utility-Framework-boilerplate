@@ -1,0 +1,12 @@
+.card-box {
+  padding: 2rem;
+  background: #FCFCFC;
+  width: 100%;
+  box-shadow: 0 0px 8px -4px gray;
+}
+
+.card-box img {
+  min-height: 250px;
+  height: 250px;
+  max-height: 250px;
+}

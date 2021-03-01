@@ -1,5 +1,5 @@
 .container{
-
+max-width:1640px;
 padding-right: 15px;
 padding-left: 15px;
 margin-right: auto;
@@ -53,6 +53,14 @@ margin-left: auto;
     align-items:center;
 }
 
+
+.align-self-stretch{
+    align-self: stretch;
+}
+
+.flex-dir-rev{
+    flex-direction: row-reverse;
+}
 .flex-col{
     flex-direction: column;
 }

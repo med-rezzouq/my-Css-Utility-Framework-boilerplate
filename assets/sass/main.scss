@@ -4,7 +4,45 @@
 @use 'components';
 
 
+//commons
+h1.section-h1-center{
+    font-weight:700;
+    font-size:2rem;
+    padding:0.5rem 0;
+    display:inline-block;
+    margin:auto;
+    background:url('../images/section-h1.svg') no-repeat;
+    background-position-y: 95%;
+    background-position-x: center;
 
+}
+
+
+h3.section-h3-center{
+    font-weight:700;
+    font-size:1.4rem;
+    padding:0.5rem 0;
+    display:inline-block;
+    margin:auto;
+    background:url('../images/section-h3.svg') no-repeat;
+    background-position-y: 95%;
+    background-position-x: center;
+}
+
+
+h3.section-h3{
+    font-weight:600;
+    font-size:1.4rem;
+    padding:0.5rem 0;
+    display:inline-block;
+    margin:auto;
+    background:url('../images/section-h3.svg') no-repeat;
+    background-position-y: 95%;
+    background-position-x: 0%;
+}
+
+
+//fin commons
 // partie header
 ul.flex-nav {
     margin-top:1rem !important;
@@ -19,7 +57,7 @@ ul.flex-nav {
     display:inline-block;
     list-style-type: none;
     margin-left:1rem;
-    font-family:"Heebo";
+    font-family:"Poppins";
     font-weight:500;
 }
 
@@ -32,8 +70,52 @@ ul.flex-nav {
 
 // partie welcome header
 
+
+
+
+//pourquoi irchad section
+.pourquoi-irchad-section img{
+height:120px;
+width:190px;
+}
+
+
+
+    .pourquoi-irchad-section article.ml{
+        margin-left:2rem;
+      }
+   .pourquoi-irchad-section article.mr{
+     margin-right:2rem;
+   }
+//pourquoi irchad section
+
+
+//contact secton
+.contact-section .field-row{
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.contact-section .field-input{
+    padding:0 3rem;
+    margin:1rem 0;
+    width:100%;
+
+}
+
+.contact-section .form-input{
+    width:100%;
+    padding:1rem;
+    font-size:1rem;
+    border:1px solid helpers.$greyBlue;
+}
+//contact secton
+
+.overlay-parent {
+    background:#fff;
+}
 .welcome-overlay::after{
-    height:800px;
+    height:700px;
     background:url('../images/welcomebg.svg');
 
 }

@@ -1,1 +1,17 @@
-$bodyBg : green;
+
+@use '../helpers' as helpers;
+.footer-section{
+    background:helpers.$blueDarkNight;
+    color:white;
+    padding:4rem 0;
+}
+
+.footer-section ul li a{
+    transition: all 500ms ease-in-out;
+    color:white;
+}
+
+
+.footer-section ul li a:hover{
+color: helpers.$blueDark ;
+}
