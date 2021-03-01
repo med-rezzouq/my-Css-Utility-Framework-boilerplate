@@ -5,7 +5,7 @@
 }
 
 .footer-section ul li a {
-  transition: all 500ms ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: white;
 }
 
@@ -187,15 +187,10 @@
 a {
   text-decoration: none;
   color: #0969C9;
-  transition: all 500ms ease-in-out;
 }
 
-a:active {
+a:active, a:hover {
   color: none;
-}
-
-a:hover {
-  color: #0D3A74;
 }
 
 li {
@@ -771,21 +766,27 @@ body, html {
 }
 
 .button-md {
-  transition: all 500ms ease-in-out;
   border-radius: 1.2rem;
 }
 
 a.button-md:hover {
+  background: #0961AA;
+}
+
+.button-md-ligh {
+  border-radius: 1.2rem;
+}
+
+a.button-md-light:hover {
   color: #aeaeae;
 }
 
 .button-md-cercle {
-  transition: all 500ms ease-in-out;
   border-radius: 50%;
 }
 
 .button-md-cercle:hover {
-  color: #aeaeae;
+  background: #0961AA;
 }
 
 .card-box {

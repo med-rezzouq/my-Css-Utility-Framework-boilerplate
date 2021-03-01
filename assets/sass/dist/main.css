@@ -1,3 +1,18 @@
+.footer-section {
+  background: #4B5164;
+  color: white;
+  padding: 4rem 0;
+}
+
+.footer-section ul li a {
+  transition: all 500ms ease-in-out;
+  color: white;
+}
+
+.footer-section ul li a:hover {
+  color: #0D3A74;
+}
+
 .blueInit {
   color: #0969C9;
 }
@@ -176,6 +191,27 @@ a {
 
 a:active, a:hover {
   color: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.section-my {
+  margin: 2rem 0;
+}
+
+.section-mt {
+  margin-top: 1rem;
+}
+
+.section-mb {
+  margin-bottom: 1rem;
 }
 
 .h-100 {
@@ -418,6 +454,66 @@ a:active, a:hover {
 .py15 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.mt1 {
+  margin-top: 0.3rem;
+}
+
+.mt2 {
+  margin-top: 0.6rem;
+}
+
+.mt3 {
+  margin-top: 0.9rem;
+}
+
+.mt4 {
+  margin-top: 1.2rem;
+}
+
+.mt5 {
+  margin-top: 1.5rem;
+}
+
+.mt6 {
+  margin-top: 1.8rem;
+}
+
+.mt7 {
+  margin-top: 2.1rem;
+}
+
+.mt8 {
+  margin-top: 2.4rem;
+}
+
+.mt9 {
+  margin-top: 2.7rem;
+}
+
+.mt10 {
+  margin-top: 3rem;
+}
+
+.mt11 {
+  margin-top: 4rem;
+}
+
+.mt12 {
+  margin-top: 5rem;
+}
+
+.mt13 {
+  margin-top: 6rem;
+}
+
+.mt14 {
+  margin-top: 7rem;
+}
+
+.mt15 {
+  margin-top: 8rem;
 }
 
 .mx1 {
@@ -673,8 +769,24 @@ a:active, a:hover {
   border-radius: 1.2rem;
 }
 
+a.button-md:hover {
+  background: #0961AA;
+}
+
+.button-md-ligh {
+  border-radius: 1.2rem;
+}
+
+a.button-md-light:hover {
+  color: #aeaeae;
+}
+
 .button-md-cercle {
   border-radius: 50%;
+}
+
+.button-md-cercle:hover {
+  background: #0961AA;
 }
 
 .card-box {

@@ -5,7 +5,7 @@
 }
 
 .footer-section ul li a {
-  transition: all 500ms ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: white;
 }
 
