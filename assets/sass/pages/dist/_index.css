@@ -19,6 +19,30 @@
 .contact-section .field-input {
   padding: 0 0rem;
   margin: 1rem 0;
+}
+
+.contact-section .form-input {
+  width: calc(100% - 2rem);
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #7A839E;
+}
+
+.contact-section select.form-input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #7A839E;
+}
+
+.contact-section .field-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section .field-input {
+  padding: 0 0rem;
+  margin: 1rem 0;
   width: 100%;
 }
 
@@ -39,7 +63,6 @@
   .contact-section .field-lg-input {
     padding: 0 0rem 0 0rem;
     margin: 1rem 0;
-    width: 100%;
   }
 
   .contact-section .form-lg-input {

@@ -221,6 +221,11 @@ body, html {
   padding-right: 0.9rem;
 }
 
+.px3-5 {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
 .px4 {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
@@ -429,6 +434,14 @@ body, html {
 .py15 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.pb4 {
+  padding-bottom: 1.2rem;
+}
+
+.pb6 {
+  padding-bottom: 1.8rem;
 }
 
 .mt1 {

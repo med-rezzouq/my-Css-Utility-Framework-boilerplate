@@ -32,6 +32,25 @@ a.button-md-light:hover{
     background:helpers.$blueMiddle;
 }
 
+.button-md-step{
+    border:1px solid helpers.$blueDark;
+    border-radius:50%;
+    z-index:1;
+    font-weight:600;
+    font-size:1.2rem;
+    color:helpers.$blueDark;
+    background:helpers.$whitePrimary;
+}
+.button-md-step:hover{
+
+    color:helpers.$whitePrimary;
+    background:helpers.$blueDark;
+}
+
+
+
+
+
 
 //burger menu
 

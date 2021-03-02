@@ -22,6 +22,21 @@ a.button-md-light:hover {
   background: #0961AA;
 }
 
+.button-md-step {
+  border: 1px solid #0D3A74;
+  border-radius: 50%;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #0D3A74;
+  background: #fff;
+}
+
+.button-md-step:hover {
+  color: #fff;
+  background: #0D3A74;
+}
+
 .btn-menu::after {
   -webkit-transform: translate3d(0, 7px, 0);
   transform: translate3d(0, 7px, 0);
