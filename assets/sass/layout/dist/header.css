@@ -1,7 +1,6 @@
 ul.flex-nav {
   margin-top: 1rem !important;
   padding: 0;
-  display: none;
 }
 
 nav.nav-desktop {
@@ -12,17 +11,60 @@ nav.nav-desktop {
   height: 100px;
 }
 
+.column-grow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.flex-nav-lang {
+  display: flex;
+}
+
 .flex-nav li {
   display: inline-block;
   list-style-type: none;
-  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.flex-welcome-buttons {
+  padding: 0;
+}
+
+.flex-welcome-buttons li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0.5rem 1rem 0.5rem 0rem;
   font-family: "Poppins";
   font-weight: 500;
+}
+
+.flex-nav-lang li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 400;
 }
 
 .header .img-indh {
   display: none;
   margin-left: 1rem;
+}
+
+.nav-mobile ul li:not(:last-of-type):hover {
+  background: #fff;
+  color: #0D3A74;
+}
+
+.nav-mobile ul li:not(:last-of-type) a:hover {
+  background: #fff;
+  color: #0D3A74;
 }
 
 .sidenav {
@@ -46,6 +88,13 @@ nav.nav-desktop {
   color: #fff;
   display: block;
   transition: 0.3s;
+}
+
+.sidenav a.blueDark {
+  margin-top: 0.5rem;
+  background: #fff;
+  color: #0D3A74;
+  border: 2px solid #0969C9;
 }
 
 .sidenav a:hover {

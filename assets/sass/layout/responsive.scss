@@ -7,13 +7,23 @@
 }
 
 @media (min-width: 768px) {
-
+.welcome-img{
+  width:70%;
+}
   
 }
 
 @media (min-width: 1024px) {
- 
-  ul.flex-nav  {
+  .column-grow{width: auto;
+}
+
+.welcome-img{
+  width:60%;
+}
+
+.nav-dekstop ul.flex-nav {display:inline-block;
+}
+ .flex-nav  {
     display:inline-block;
    }
   nav.nav-desktop{

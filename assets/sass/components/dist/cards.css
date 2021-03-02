@@ -1,7 +1,7 @@
 .card-box {
   padding: 2rem;
   background: #FCFCFC;
-  width: 100%;
+  width: calc(100% - 5rem);
   box-shadow: 0 0px 8px -4px gray;
 }
 
