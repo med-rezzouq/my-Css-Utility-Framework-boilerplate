@@ -35,25 +35,162 @@
   border: 1px solid #7A839E;
 }
 
-.contact-section .field-row {
+.soumissionner .field-row {
   justify-content: center;
   align-items: center;
 }
 
-.contact-section .field-input {
+.soumissionner .field-input {
   padding: 0 0rem;
   margin: 1rem 0;
-  width: 100%;
 }
 
-.contact-section .form-input {
-  width: calc(100% - 2rem);
-  padding: 1rem 1rem;
+.soumissionner .form-input, .soumissionner .form-lg-input-one {
+  border-radius: 4px;
+}
+
+.soumissionner .form-input {
+  width: calc(100% - 1rem);
+  padding: 0.35rem 0.5rem;
   font-size: 1rem;
   border: 1px solid #7A839E;
 }
 
+.soumissionner select.form-input {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #7A839E;
+}
+
+.soumissionner .column-11 h4 {
+  margin: 0;
+  padding: 0;
+  color: #0D3A74;
+}
+
+.soumissionner .column-11 p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.soumissionner .column-11 h3 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.soumissionner .column-11 p.second-par {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.my-steps::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 1px);
+  top: 0px;
+  background: #0D3A74;
+  width: 1px;
+  z-index: -1;
+  height: 100%;
+}
+
+.seconnecter .field-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.seconnecter .field-input {
+  padding: 0 0rem;
+  margin: 1rem 0;
+}
+
+.seconnecter .form-input, .soumissionner .form-lg-input-one {
+  border-radius: 1.2rem;
+  box-shadow: 0px 2.5px 5px -4px #000;
+}
+
+.seconnecter .form-input:focus {
+  outline: none;
+}
+
+.seconnecter .form-input {
+  width: calc(100% - 1rem);
+  padding: 0.4rem 0.5rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.seconnecter h3 {
+  font-weight: 500;
+}
+
+.programme .card {
+  position: relative;
+  width: 45%;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
+  margin-bottom: 2rem;
+}
+.programme .card p {
+  color: #7A839E;
+}
+.programme .card:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-image: url("../../images/right-border-card.svg");
+  background-repeat: no-repeat;
+  width: 3px;
+  height: 100%;
+}
+
+.apropos .card {
+  position: relative;
+  width: 45%;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
+  margin-bottom: 2rem;
+}
+.apropos .card p {
+  color: #7A839E;
+}
+.apropos .card:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-image: url("../../images/right-border-card.svg");
+  background-repeat: no-repeat;
+  width: 3px;
+  height: 100%;
+}
+
+@media (min-width: 475px) {
+  .px-xxs-2 {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .mr-md-3 {
+    margin-left: 0.9rem;
+  }
+
+  .px-md-2 {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}
 @media (min-width: 1024px) {
+  .mr-lg-3 {
+    margin-left: 0.9rem;
+  }
+
   .contact-section .field-lg-row {
     display: flex;
     justify-content: space-between;
@@ -67,7 +204,39 @@
 
   .contact-section .form-lg-input {
     width: calc(100% - 3rem);
-    padding: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #7A839E;
+  }
+
+  .soumissionner .field-lg-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .soumissionner .field-lg-input {
+    padding: 0 0rem 0 0rem;
+    margin: 1rem 0;
+  }
+
+  .soumissionner .form-lg-input {
+    width: calc(100% - 2rem);
+    padding: 0.35rem 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #7A839E;
+  }
+
+  .soumissionner .form-lg-input-one {
+    width: calc(100% - 1rem);
+    padding: 0.35rem 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #7A839E;
+  }
+
+  .soumissionner select.form-lg-input {
+    width: calc(100% - 1.6rem);
+    padding: 0.35rem 0.5rem;
     font-size: 1rem;
     border: 1px solid #7A839E;
   }

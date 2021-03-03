@@ -240,84 +240,160 @@
             <div class="column-11 row-flex flex-col align-center justify-around ">
 
                   <div class="px5 px-xxs-2 w-lg-100  w-100 pb6">
-                  <h4 >Informations personnelles</h4>
-                  <p>Renseignez vos informations personnelles</p> 
+                  <h4 >Informations professionnelles</h4>
+                  <p>Renseignez vos informations professionnelles</p> 
                 </div> 
-                 <form action="#" class="w-100 dnone" >
-          
+
+
+       
+                 <form action="#" class="w-100 " >
+                   <div class="px5 px-xxs-2 w-lg-100  w-100 py4 ">
+                  <h3 >Niveau scolaire</h3>
+                  <p class="second-par">Renseignez vos diplômes</p> 
+                </div> 
+
            
                 <div class="field-row field-lg-row">
          
-                  <div class="field-input field-lg-input w-lg-40 w-100"  >
-                    <select type="text" id="civilite" class="form-input form-lg-input"  >
-                      <option value="">Votre civilité</option>
-                      <option value="Mr">Mr</option>
-                      <option value="Mme">Mme</option>
-                      <option value="Mlle">Mlle</option>
-                    </select>
+                  <div class="field-input field-lg-input  w-lg-70  w-100">
+                    <input type="text" id="diplome" name="diplome" class="form-input form-lg-input" placeholder="Type de diplôme..." />
                   </div>
                   
                   <div class="field-input field-lg-input  w-lg-70  w-100">
-                    <input type="text" id="name" class="form-input form-lg-input" placeholder="Votre nom" />
+                    <input type="text" id="anneDiplme" name="anneDiplome" class="form-input form-lg-input-one" placeholder="Année d'obtention..." />
                   </div>
   
-                  <div class="field-input field-lg-input text-right w-lg-70  w-100">
-                    <input type="text" id="name" class="form-input form-lg-input" placeholder="Votre nom" />
+                  <div class="field-input field-lg-input text-right w-lg-100  w-100">
+                    <input type="text" id="name" class="form-input form-lg-input" placeholder="Établissement..." />
+                  </div>
+
+                  <div class="field-input field-lg-input  w-lg-10   w-10">
+                    <a href="#" class="button-md blueDarkBg white py2 px5  mr-lg-3 mr0"
+                    >+</a> 
                   </div>
   
                 </div>
-  
+                <div class="px5 px-xxs-2 w-lg-100  w-100 py8 pb4">
+                  <h3 >Stage</h3>
+                  <p class="second-par">Renseignez vos experiences professionnelles</p> 
+                </div> 
+
                 <div class="field-row field-lg-row">
-                  <div class="field-input field-lg-input w-lg-75  w-100">
-                    <input type="text" id="cin" class="form-input form-lg-input" placeholder="Votre numéro CIN" />
+         
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="debutExperience" name="debut_experience" class="form-input form-lg-input" placeholder="Du..." />
                   </div>
-                  <div class="field-input field-lg-input w-lg-75  w-100 text-right">
-                    <input type="text" id="naissance" class="form-input form-lg-input " placeholder="jj/mm/aa"/>
+                  
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="finExperience" name="fin_experience" class="form-input form-lg-input" placeholder="Au..." />
                   </div>
-                  <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
-                    <select type="text"  id="stiuationFamilial" class="form-input form-lg-input"  >
-                      <option value="">Votre situation familiale</option>
-                      <option value="Mr">Mr</option>
-                      <option value="Mme">Mme</option>
-                      <option value="Mlle">Mlle</option>
-                    </select>
+  
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="poste" name="poste" class="form-input form-lg-input" placeholder="Poste..." />
+                  </div>
+                  
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="organisme" name="organisme" class="form-input form-lg-input" placeholder="Organisme..." />
+                  </div>
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="mission" name="mission" class="form-input form-lg-input-one" placeholder="Mission..." />
+                  </div>
+
+                  <div class="field-input field-lg-input  w-lg-10   w-10">
+                    <a href="#" class="button-md blueDarkBg white py2 px5  mr-lg-3 mr0"
+                    >+</a> 
+                  </div>
+                  
+            
+               
+                </div>
+
+                <div class="px5 px-xxs-2 w-lg-100  w-100 py8 pb4">
+                  <h3 >Compétences développées</h3>
+                  <p class="second-par">Renseignez vos Compétences développées</p> 
+                </div> 
+
+
+                <div class="field-row field-lg-row">
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                      <textarea name="competences" id="competences" class="form-input form-lg-input-one" cols="30" rows="7" placeholder="Vos compétences développées..."></textarea>
                   </div>
                 </div>
-  
+
+                <div class="px5 px-xxs-2 w-lg-100  w-100 py8 pb4">
+                  <h3 >Situation actuelle</h3>
+                  <p class="second-par">Renseignez votre situation actuelle</p> 
+                </div> 
+
+
                 
-                <div class="field-row field-lg-row">
-                  <div class="field-input field-lg-input w-lg-100  w-100">
-                    <input type="text" id="adresse" class="form-input form-lg-input-one" placeholder="Votre adresse" />
-                  </div>
-             
-                  <div class="field-input field-lg-input w-lg-30 w-100 text-right " >
-                    <select type="text"  id="commune" class="form-input form-lg-input"  >
-                      <option value="">Votre commune</option>
-                      <option value="Mr">Driouch</option>
-                      <option value="Mme">Midar</option>
-                      <option value="Mlle">Ben taieb</option>
-                    </select>
+              <div class="field-row field-lg-row">
+                <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                  <select type="text" name="enActivite" id="en_activite" class="form-input form-lg-input-one"  >
+                    <option value="">En activité?</option>
+                    <option value="oui">oui</option>
+                    <option value="non">Non</option>
+                  </select>
+
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="dureeActivite" name="duree_activite" class="form-input form-lg-input-one " placeholder="Depuis combien de temps?" />
                   </div>
                 </div>
-  
-  
-                <div class="field-row field-lg-row">
-                  <div class="field-input field-lg-input w-lg-100  w-100">
-                    <input type="text" id="email" class="form-input form-lg-input" placeholder="Votre adresse email" />
-                  </div>
-                  <div class="field-input field-lg-input w-lg-100  w-100 text-right">
-                    <input type="text" id="tel" class="form-input form-lg-input " placeholder="Votre numéro de téléphone"/>
-                  </div>
-                </div>
-  
                 
-                <div class="field-row field-lg-row">
-                  <div class="field-input field-lg-input w-lg-100  w-100">
-                    <input type="text" id="mobilite" class="form-input  w-100" placeholder="Êtes vous d'une mobilité réduite?" />
+              </div>
+
+                              
+              <div class="field-row field-lg-row">
+                <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                  <select type="text"  id="activiteFormelle" name="activite_formelle" class="form-input form-lg-input-one"  >
+                    <option value="">Exercez-vous une activité informelle ou informelle?</option>
+                    <option value="oui">oui</option>
+                    <option value="non">Non</option>
+                  </select>
+
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="secteurActiviteInformelle" name="secteur_activite_informelle" class="form-input form-lg-input-one " placeholder="Dans quel secteur?" />
                   </div>
-        
                 </div>
-  
+                
+              </div>
+
+
+              <div class="field-row field-lg-row">
+                <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                  <select type="text"  id="opportuniteRecherche" name="opportunite_recherche"  class="form-input form-lg-input-one"  >
+                    <option value="">Êtes vous en recherche d'opportunité?</option>
+                    <option value="oui">oui</option>
+                    <option value="non">Non</option>
+                  </select>
+
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="dureeOpportuniteRecherche" name="duree_opportunite_recherche" class="form-input form-lg-input-one " placeholder="Depuis combien de mois?" />
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="field-row field-lg-row">
+                <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                  <select type="text"  id="vousEtesEnFormation" name="vousEtesEnFormation"  class="form-input form-lg-input-one"  >
+                    <option value="">Êtes vous en formation?</option>
+                    <option value="oui">oui</option>
+                    <option value="non">Non</option>
+                  </select>
+
+                  <div class="field-input field-lg-input  w-lg-100  w-100">
+                    <input type="text" id="enFormationDomaine" name="en_formation_domaine" class="form-input form-lg-input-one " placeholder="Dans quel domaine ?" />
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
   
   
                  <div class="field-row text-center">
@@ -349,88 +425,149 @@
                     <h4 >Informations Sur Le Projet</h4>
                     <p>Renseignez les détails de votre projet.</p> 
                   </div> 
-                   <form action="#" class="w-100 dnone" >
+                   <form action="#" class="w-100 " >
             
-             
-                  <div class="field-row field-lg-row">
-           
-                    <div class="field-input field-lg-input w-lg-40 w-100"  >
-                      <select type="text" id="civilite" class="form-input form-lg-input"  >
-                        <option value="">Votre civilité</option>
-                        <option value="Mr">Mr</option>
-                        <option value="Mme">Mme</option>
-                        <option value="Mlle">Mlle</option>
-                      </select>
+                    <div class="field-row field-lg-row">
+                      <div class="field-input field-lg-input w-lg-100 w-100 " >
+                        <select type="text"  id="etatAvancement" name="etat_avancement"  class="form-input form-lg-input"  >
+                          <option value="0" selected  disabled>Quel est l'état d'avancement de votre projet? </option>
+                          <option value="1">Pas encore lancé</option>
+                          <option value="2">En cours d'étude</option>
+                          <option value="3">Economie informelle</option>
+                          <option value="4">Entreprise qui nécessite le développement</option>
+                        </select>
+                      </div>
+
+
+                      <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                        <select type="text"  id="ideeOrigine" name="idee_origine"  class="form-input form-lg-input-one"  >
+                          <option value="0" selected  disabled>D'où vient l'idée du projet? </option>
+                          <option value="1">Formation</option>
+                          <option value="2">Expérience </option>
+                          <option value="3">Autre</option>
+
+                        </select>
+                      </div>
                     </div>
+
+
+
+
+
+
+                    <div class="field-row field-lg-row">
+                      <div class="field-input field-lg-input w-lg-100  w-100">
+                        <input type="text" id="titreProjet" name="titre_projet" class="form-input form-lg-input-one" placeholder="titre de votre projet..." />
+                      </div>
+                 
+                      <div class="field-input field-lg-input w-lg-30 w-100 text-right " >
+                        <select type="text"  id="secteurActivite" name="secteur_activite" class="form-input form-lg-input"  >
+                          <option value="Mr" disabled>Secteur d'activité...</option>
+                          <optgroup label = "Agriculture"> 
+                          <option value="Apiculture">Apiculture</option>
+                          <option value="Aviculture">Aviculture</option>
+                        </optgroup>
+                        </select>
+                      </div>
+                    </div>
+    
+
+
+                    <div class="field-row field-lg-row">
+                      <div class="field-input field-lg-input w-lg-100 w-100 " >
+                        <select type="text"  id="ilSagitDe" name="il_sagit_de"  class="form-input form-lg-input"  >
+                          <option value="0" selected  disabled>S'agit-il de:? </option>
+                          <option value="Extension">Extension</option>
+                          <option value="Création">Création</option>
+                        </select>
+                      </div>
+
+
+                      <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                        <select type="text"  id="projetImplantation" name="projet_implantation"  class="form-input form-lg-input-one"  >
+                          <option value="0" selected  disabled>Implantation du projet? </option>
+                          <option value="Urbain">Urbain</option>
+                          <option value="Rural">Rural</option>
+      
+
+                        </select>
+                      </div>
+                    </div>
+
+
+
+                    <div class="field-row field-lg-row">
+                      <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+      
+                        <div class="field-input field-lg-input  w-lg-100  w-100">
+                          <input type="number" id="effectifProjet" name="effectif_projet" class="form-input form-lg-input-one " placeholder="Effectif du projet..." min="1"  />
+                        </div>
+                      </div>
+                    </div>
+
+
+
                     
-                    <div class="field-input field-lg-input  w-lg-70  w-100">
-                      <input type="text" id="name" class="form-input form-lg-input" placeholder="Votre nom" />
+              <div class="field-row field-lg-row">
+                <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                  <select type="text"  id="besoinDeFormation" name="besoin_de_formation"  class="form-input form-lg-input-one"  >
+                    <option value="">Auriez-vous besoin d'une formation?</option>
+                    <option value="oui">oui</option>
+                    <option value="non">Non</option>
+                  </select>
+
+                </div>
+              </div>
+
+
+
+              <div class="field-row field-lg-row">
+                <div class="field-input field-lg-input  w-lg-100  w-100">
+                  <textarea name="cote_innovation" id="coteInnovation" class="form-input form-lg-input" cols="30" rows="7" placeholder="Selon vous, quel est le côté d’innovation de votre projet ?..."></textarea>
+              </div>
+
+              <div class="field-input field-lg-input  w-lg-100  w-100">
+                <textarea name="attentes_et_motivations" id="attentesEtMotivations" class="form-input form-lg-input-one" cols="30" rows="7" placeholder="Quelles sont vos attentes et vos motivations pour ce programme ?..."></textarea>
+            </div>
+              </div>
+
+
+
+
+
+                    <div class="field-row field-lg-row">
+                      <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                        <select type="text"  id="aideEtatique" name="aide_etatique"  class="form-input form-lg-input-one"  >
+                          <option value="0" selected  disabled>Avez-vous déjà bénéficié d'une aide étatique?</option>
+                          <option value="oui">oui</option>
+                          <option value="non">Non</option>
+                        </select>
+                      </div>
                     </div>
-    
-                    <div class="field-input field-lg-input text-right w-lg-70  w-100">
-                      <input type="text" id="name" class="form-input form-lg-input" placeholder="Votre nom" />
+      
+                    <div class="field-row field-lg-row">
+                      <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
+                        <select type="text"  id="entrepriseDejaCree" name="entreprise_deja_cree"  class="form-input form-lg-input-one"  >
+                          <option value="0" selected disabled >Avez-vous déjà créé une entreprise pour votre projet?</option>
+                          <option value="oui">oui</option>
+                          <option value="non">Non</option>
+                        </select>
+                      </div>
                     </div>
-    
-                  </div>
-    
-                  <div class="field-row field-lg-row">
-                    <div class="field-input field-lg-input w-lg-75  w-100">
-                      <input type="text" id="cin" class="form-input form-lg-input" placeholder="Votre numéro CIN" />
-                    </div>
-                    <div class="field-input field-lg-input w-lg-75  w-100 text-right">
-                      <input type="text" id="naissance" class="form-input form-lg-input " placeholder="jj/mm/aa"/>
-                    </div>
-                    <div class="field-input field-lg-input w-lg-100 w-100 text-right " >
-                      <select type="text"  id="stiuationFamilial" class="form-input form-lg-input"  >
-                        <option value="">Votre situation familiale</option>
-                        <option value="Mr">Mr</option>
-                        <option value="Mme">Mme</option>
-                        <option value="Mlle">Mlle</option>
-                      </select>
-                    </div>
-                  </div>
-    
+      
                   
-                  <div class="field-row field-lg-row">
-                    <div class="field-input field-lg-input w-lg-100  w-100">
-                      <input type="text" id="adresse" class="form-input form-lg-input-one" placeholder="Votre adresse" />
-                    </div>
-               
-                    <div class="field-input field-lg-input w-lg-30 w-100 text-right " >
-                      <select type="text"  id="commune" class="form-input form-lg-input"  >
-                        <option value="">Votre commune</option>
-                        <option value="Mr">Driouch</option>
-                        <option value="Mme">Midar</option>
-                        <option value="Mlle">Ben taieb</option>
-                      </select>
-                    </div>
-                  </div>
-    
-    
-                  <div class="field-row field-lg-row">
-                    <div class="field-input field-lg-input w-lg-100  w-100">
-                      <input type="text" id="email" class="form-input form-lg-input" placeholder="Votre adresse email" />
-                    </div>
-                    <div class="field-input field-lg-input w-lg-100  w-100 text-right">
-                      <input type="text" id="tel" class="form-input form-lg-input " placeholder="Votre numéro de téléphone"/>
-                    </div>
-                  </div>
-    
-                  
-                  <div class="field-row field-lg-row">
-                    <div class="field-input field-lg-input w-lg-100  w-100">
-                      <input type="text" id="mobilite" class="form-input  w-100" placeholder="Êtes vous d'une mobilité réduite?" />
-                    </div>
-          
-                  </div>
-    
-    
+   
     
                    <div class="field-row text-center">
              
                       <a href="#" class="button-md blueDarkBg white py2 px5"
-                      >Suivant</a
+                      >Précédent</a
                     >
+
+                    <a href="#" class="button-md blueDarkBg white py2 px5"
+                    >Envoyer</a
+                  >
+                 
                    
                    </div>
                   </div>

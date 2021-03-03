@@ -371,6 +371,10 @@ nav.nav-desktop {
   display: none;
 }
 
+.dblock {
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: #0969C9;
@@ -865,6 +869,32 @@ body, html {
   margin-top: 8rem;
 }
 
+.mr0 {
+  margin-left: 0rem;
+}
+
+.mr3 {
+  margin-left: 0.9rem;
+}
+
+.mb8 {
+  margin-bottom: 3rem;
+}
+
+.mb10 {
+  margin-bottom: 3rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx0 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
 .mx1 {
   margin-left: 0.3rem;
   margin-right: 0.3rem;
@@ -1120,7 +1150,7 @@ h1.section-h1-center {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h1.svg?10585e30abbf464601357208d5f391a2) no-repeat;
+  background: url(/images/section-h1.svg?7402058c6d58db154d7084011aa793f5) no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1131,7 +1161,7 @@ h3.section-h3-center {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
+  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1142,7 +1172,7 @@ h3.section-h3 {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
+  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
   background-position-y: 95%;
   background-position-x: 0%;
 }
@@ -2069,6 +2099,18 @@ a.button-md-light:hover {
   font-size: 0.9rem;
 }
 
+.soumissionner .column-11 h3 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.soumissionner .column-11 p.second-par {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
 .my-steps::after {
   content: "";
   position: absolute;
@@ -2080,6 +2122,78 @@ a.button-md-light:hover {
   height: 100%;
 }
 
+.seconnecter .field-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.seconnecter .field-input {
+  padding: 0 0rem;
+  margin: 1rem 0;
+}
+
+.seconnecter .form-input, .soumissionner .form-lg-input-one {
+  border-radius: 1.2rem;
+  box-shadow: 0px 2.5px 5px -4px #000;
+}
+
+.seconnecter .form-input:focus {
+  outline: none;
+}
+
+.seconnecter .form-input {
+  width: calc(100% - 1rem);
+  padding: 0.4rem 0.5rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.seconnecter h3 {
+  font-weight: 500;
+}
+
+.programme .card {
+  position: relative;
+  width: 45%;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
+  margin-bottom: 2rem;
+}
+.programme .card p {
+  color: #7A839E;
+}
+.programme .card:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-image: url(/images/right-border-card.svg?54ad94431786a86c09e3add918ec0e54);
+  background-repeat: no-repeat;
+  width: 3px;
+  height: 100%;
+}
+
+.apropos .card {
+  position: relative;
+  width: 20%;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
+  margin-bottom: 2rem;
+}
+.apropos .card p {
+  color: #7A839E;
+}
+.apropos .card:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-image: url(/images/right-border-card.svg?54ad94431786a86c09e3add918ec0e54);
+  background-repeat: no-repeat;
+  width: 3px;
+  height: 100%;
+}
+
 @media (min-width: 475px) {
   .px-xxs-2 {
     padding-left: 0.6rem;
@@ -2087,12 +2201,20 @@ a.button-md-light:hover {
   }
 }
 @media (min-width: 768px) {
+  .mr-md-3 {
+    margin-left: 0.9rem;
+  }
+
   .px-md-2 {
     padding-left: 0.6rem;
     padding-right: 0.6rem;
   }
 }
 @media (min-width: 1024px) {
+  .mr-lg-3 {
+    margin-left: 0.9rem;
+  }
+
   .contact-section .field-lg-row {
     display: flex;
     justify-content: space-between;

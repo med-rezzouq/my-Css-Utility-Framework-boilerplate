@@ -11,6 +11,10 @@
     display:none;
 }
 
+.dblock{
+    display:block;
+}
+
 a{
     text-decoration: none;
     color:helpers.$blueInit;
@@ -433,6 +437,26 @@ body,html{
 .mt15{
     margin-top:8rem;
   
+}
+
+
+.mr0{margin-left:0rem;}
+.mr3{margin-left:0.9rem;}
+.mb8{
+    margin-bottom:3rem;
+}
+.mb10{
+    margin-bottom:3rem;
+}
+
+.mx-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.mx0{
+    margin-left:0rem;
+    margin-right:0rem;
 }
 
 

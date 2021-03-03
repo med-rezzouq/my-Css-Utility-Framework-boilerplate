@@ -1,0 +1,36 @@
+@use '../helpers' as helpers;
+//contact secton
+.seconnecter .field-row{
+  
+    justify-content:center;
+    align-items: center;
+    }
+    .seconnecter .field-input{
+        padding:0 0rem;
+        margin:1rem 0;
+
+    
+    }
+    
+    .seconnecter .form-input, .soumissionner .form-lg-input-one{
+        border-radius: 1.2rem;
+        box-shadow: 0px 2.5px 5px -4px #000;
+    } 
+    .seconnecter .form-input:focus{    outline: none;}
+    .seconnecter .form-input{
+        width:calc(100% - 1rem);
+        padding:0.4rem 0.5rem;
+        font-size:1rem;
+        border:none;
+    
+    }
+
+
+  
+    .seconnecter h3{
+        font-weight:500;
+    }
+
+
+
+    //contact secton
