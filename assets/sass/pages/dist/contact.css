@@ -9,7 +9,7 @@
 }
 
 .contact-section .form-input {
-  width: calc(100% - 2rem);
+  width: 100%;
   padding: 1rem 1rem;
   font-size: 1rem;
   border: 1px solid #7A839E;

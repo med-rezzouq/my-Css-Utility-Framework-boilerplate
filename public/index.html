@@ -10,83 +10,101 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <script src="../assets/js/main.js"></script>
+
     <title>IRCHAD LAARACHE</title>
   </head>
   <body>
     <header>
-      <section class="header" data-title="header-section">
+      <section class="header header-before-stick" data-title="header-section">
         <div class="container">
           <div class="row row-flex ht-100 align-center">
             <div class="column-2 column-xl-3 row-flex align-center">
               <img src="../assets/images/irchadlogo.svg" class="" alt="" />
               <img src="../assets/images/logo.svg" class="img-indh" alt="" />
             </div>
-            <div class="column-10  column-xl-9 row-flex justify-between">
+            <div
+              class="column-10 column-xl-9 row-flex justify-between align-center"
+            >
               <div class="column-grow flex-row align-center">
                 <nav class="nav-desktop">
-                <ul class="flex-nav blueInit">
-                  <li><a href="#">À Propos</a></li>
-                  <li><a href="#">Programme</a></li>
-                  <li><a href="#">Soumissioner un projet</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">contact</a></li>
+                  <ul class="flex-nav blueInit">
+                    <li><a href="apropos.html">À Propos</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li>
+                      <a href="soumissionner.html">Soumissioner un projet</a>
+                    </li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
 
-                  <li>
-                    <a href="#" class="button-md white blueDarkBg py2 px3 "
-                      >Se connécter</a
-                    >
-                  </li>
-                </ul></nav>
+                    <li>
+                      <a
+                        href="login.html"
+                        class="button-md white blueDarkBg py2 px3"
+                        >Se connécter</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
               </div>
               <div class="column-grow">
-                <ul class="flex-burger"> 
+                <ul class="flex-burger">
                   <li>
-                  <div class="btn-menu" onclick="openNav()"><span onclick="openNav()"></span></div>  
-                 </li>
+                    <div class="btn-menu">
+                      <span></span>
+                    </div>
+                  </li>
                 </ul>
                 <ul class="flex-nav-lang">
                   <li>
-                   
-                  </li>
-                  <li>
-                    <a href="" class="button-md-cercle blueDarkBg white p2"
-                      >AR</a
-                    >
+                    <a href="" class="button-lang whiteBg blueDark p2">Arabe</a>
                   </li>
                   <li>
                     <a
                       href=""
-                      class="button-md-cercle blueDarkBg white py2 px2-5"
-                      >FR</a
+                      class="button-lang blue-middle-bg white py2 px2-5"
+                      >Français</a
                     >
                   </li>
                 </ul>
 
                 <nav class="nav-mobile">
-          
-                  <div id="mySidenav" class="sidenav"> 
-                   <ul class="" style="position:absolute;top:1rem;left:10px;">
-                    <li>   <img src="../assets/images/irchadlogowhite.svg" class="" alt="" /></li>
-                </ul>         
-                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <ul class="blueInit  px0 mt10">
-                      <li><a href="#">À Propos</a></li>
-                      <li><a href="#">Programme</a></li>
-                      <li><a href="#">Soumissioner un projet</a></li>
-                      <li><a href="#">FAQ</a></li>
-                      <li><a href="#">contact</a></li>
-    
+                  <div id="mySidenav" class="sidenav">
+                    <ul
+                      class=""
+                      style="position: absolute; top: 1rem; left: 10px"
+                    >
                       <li>
-                        <a href="#" class="mx4 button-md whiteBg blueDark py2 px3 "
+                        <img
+                          src="../assets/images/irchadlogowhite.svg"
+                          class=""
+                          alt=""
+                        />
+                      </li>
+                    </ul>
+                    <a
+                      href="javascript:void(0)"
+                      class="closebtn"
+                      onclick="closeNav()"
+                      >&times;</a
+                    >
+                    <ul class="blueInit px0 mt10">
+                      <li><a href="apropos.html">À Propos</a></li>
+                      <li><a href="programme.html">Programme</a></li>
+                      <li>
+                        <a href="soumissionner.html">Soumissioner un projet</a>
+                      </li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="contact.html">contact</a></li>
+
+                      <li>
+                        <a
+                          href="login.html"
+                          class="mx4 button-md whiteBg blueDark py2 px3"
                           >Se connécter</a
                         >
                       </li>
                     </ul>
                   </div>
-
-
-
                 </nav>
               </div>
             </div>
@@ -98,7 +116,9 @@
       <section class="welcome-section section-my" data-title="accueil-section">
         <div class="container">
           <div class="row row-flex align-center welcome-overlay">
-            <div class="column-12 column-sm-12 column-md-6 row-flex flex-col align-between order-1 order-md-0">
+            <div
+              class="column-12 column-sm-12 column-md-6 row-flex flex-col align-between order-1 order-md-0"
+            >
               <h1 class="font-bold font-xxl">
                 Une Plateforme dédiée aux jeunes porteurs de projets
               </h1>
@@ -115,12 +135,20 @@
                   >
                 </li>
                 <li>
-                  <a href="#" class="button-md-light blueInit">En savoir plus</a>
+                  <a href="#" class="button-md-light blueInit"
+                    >En savoir plus</a
+                  >
                 </li>
               </ul>
             </div>
-            <div class=" column-12 column-sm-12 column-md-6 row-flex justify-center justify-md-end order-0 order-md-1 ">
-              <img src="../assets/images/welcome.svg" class="welcome-img" alt=" "  />
+            <div
+              class="column-12 column-sm-12 column-md-6 row-flex justify-center justify-md-end order-0 order-md-1"
+            >
+              <img
+                src="../assets/images/welcome.svg"
+                class="welcome-img"
+                alt=" "
+              />
             </div>
           </div>
         </div>
@@ -129,7 +157,10 @@
     </header>
 
     <!-- Accompagnement irchad -->
-    <section class="accompagnement-section section-my" data-title="accompagnement-section">
+    <section
+      class="accompagnement-section section-my"
+      data-title="accompagnement-section"
+    >
       <div class="container py13">
         <div class="row row-flex align-center">
           <div class="column-12 row-flex flex-col align-between">
@@ -139,7 +170,9 @@
           </div>
         </div>
         <div class="row row-flex justify-around mt10">
-          <div class="column-12  column-sm-12 column-md-6 column-lg-4 column-xxl-3 .align-self-stretch">
+          <div
+            class="column-12 column-sm-12 column-md-6 column-lg-4 column-xxl-3 .align-self-stretch"
+          >
             <div class="card-box h-card-100">
               <img
                 src="../assets/images/accompagnement1.svg"
@@ -157,7 +190,9 @@
               </div>
             </div>
           </div>
-          <div class="column-12  column-sm-12 column-md-6 column-lg-4 column-xxl-3 .align-self-stretch">
+          <div
+            class="column-12 column-sm-12 column-md-6 column-lg-4 column-xxl-3 .align-self-stretch"
+          >
             <div class="card-box h-card-100 align-between">
               <img
                 src="../assets/images/accompagnement2.svg"
@@ -175,7 +210,9 @@
               </div>
             </div>
           </div>
-          <div class="column-12  column-sm-12 column-md-6 column-lg-4 column-xxl-3 .align-self-stretch">
+          <div
+            class="column-12 column-sm-12 column-md-6 column-lg-4 column-xxl-3 .align-self-stretch"
+          >
             <div class="card-box h-card-100">
               <img
                 src="../assets/images/accompagnement3.svg"
@@ -188,8 +225,7 @@
                   Nous cherchons activement à encourager l'entrepreneuriat et
                   l'esprit entrepreneurial, particulièrement chez les jeunes de
                   18 à 25 ans, en collaboration avec les acteurs de l'écosystème
-                  entrepreneurial (INDH, Anapec, OFPPT…) 
-                 
+                  entrepreneurial (INDH, Anapec, OFPPT…)
                 </p>
               </div>
             </div>
@@ -217,7 +253,9 @@
       <div class="container">
         <div class="row row-flex align-center justify-center">
           <div class="column-12 row-flex align-between">
-            <h1 class="section-h1-center text-center">POURQUOI CHOISIR IRCHAD ??</h1>
+            <h1 class="section-h1-center text-center">
+              POURQUOI CHOISIR IRCHAD ??
+            </h1>
           </div>
 
           <div class="column-12 row-flex align-between px14 mt10">
@@ -269,7 +307,10 @@
     <!-- fin Pourquoi irchad -->
 
     <!-- en savoir plus  de irchad -->
-    <section class="savoirplus-section section-my" data-title="savoirplus-section">
+    <section
+      class="savoirplus-section section-my"
+      data-title="savoirplus-section"
+    >
       <div class="container">
         <div class="row row-flex align-center justify-center py13">
           <div class="column-12 row-flex flex-col align-center justify-around">
@@ -303,25 +344,40 @@
           <div class="column-12 row-flex flex-col align-center justify-around">
             <form action="#" class="w-100">
               <div class="field-row field-lg-row">
-                <div class="field-input field-lg-input"  >
-                  <input type="text" id="prenom" class="form-input form-lg-input" placeholder="Votre prénom" />
-                </div>
-                
-                <div class="field-input field-lg-input text-right">
-                  <input type="text" id="name" class="form-input form-lg-input" placeholder="Votre nom" />
-                </div>
-
-                <div class="field-input field-lg-input text-right">
-                  <input type="text" id="name" class="form-input form-lg-input" placeholder="Votre nom" />
+                <div class="field-input field-lg-input w-100">
+                  <input
+                    type="text"
+                    id="prenom"
+                    class="form-input form-lg-input"
+                    placeholder="Votre prénom"
+                  />
                 </div>
 
+                <div class="field-input field-lg-input text-right w-100">
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-input form-lg-input"
+                    placeholder="Votre nom"
+                  />
+                </div>
               </div>
               <div class="field-row field-lg-row">
-                <div class="field-input field-lg-input ">
-                  <input type="text" id="email" class="form-input form-lg-input" placeholder="Votre adresse email" />
+                <div class="field-input field-lg-input w-100">
+                  <input
+                    type="text"
+                    id="email"
+                    class="form-input form-lg-input"
+                    placeholder="Votre adresse email"
+                  />
                 </div>
-                <div class="field-input field-lg-input text-right">
-                  <input type="text" id="tel" class="form-input form-lg-input " placeholder="Votre numéro de téléphone"/>
+                <div class="field-input field-lg-input text-right w-100">
+                  <input
+                    type="text"
+                    id="tel"
+                    class="form-input form-lg-input"
+                    placeholder="Votre numéro de téléphone"
+                  />
                 </div>
               </div>
 
@@ -334,16 +390,13 @@
                     rows="10"
                     class="form-input"
                   ></textarea>
-                </div>    
-               </div>
+                </div>
+              </div>
 
-               <div class="field-row">
-         
-                  <a href="#" class="button-md blueInitbg white py2 px5"
-                  >Je découvre le programme</a
-                >
-               
-               </div>
+              <div class="field-row">
+                <a href="#" class="button-md blueInitbg white py2 px5"
+                  >Envoyer un message
+                </a>
               </div>
             </form>
           </div>
@@ -353,38 +406,44 @@
     <!-- fin contact -->
 
     <!-- footer -->
-
-    <section class="footer-section section-mt" data-title="footer-section">
-      <div class="container">
-        <div class="row row-flex align-end justify-center">
-          <div class="column-4 row-flex flex-col align-center justify-end">
+    <footer>
+      <section class="footer-section section-mt" data-title="footer-section">
+        <div class="container">
+          <div class="row row-flex align-end justify-center">
+            <div class="column-4 row-flex flex-col align-center justify-end">
               <ul>
-                <li>   <img src="../assets/images/irchadlogowhite.svg" class="" alt="" /></li>
+                <li>
+                  <img
+                    src="../assets/images/irchadlogowhite.svg"
+                    class=""
+                    alt=""
+                  />
+                </li>
                 <li>4779 Oujda Avenue28306</li>
-                <li><a href="tel:+212 656-525-125" >+212 656-525-125</a> </li>
+                <li><a href="tel:+212 656-525-125">+212 656-525-125</a></li>
               </ul>
+            </div>
 
-          </div>
+            <div class="column-4 row-flex flex-col align-center justify-end">
+              <ul>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Programme</a></li>
+                <li><a href="#">Soumissionner un projet</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Nous Contacter</a></li>
+              </ul>
+            </div>
 
-          <div class="column-4 row-flex flex-col align-center justify-end">
-
-            <ul>
-              <li><a href="#">À Propos</a></li>
-              <li><a href="#">Programme</a></li>
-              <li><a href="#">Soumissionner un projet</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Nous Contacter</a></li>
-            </ul>
-          </div>
-
-          <div class="column-4 row-flex flex-col align-center justify-end">
-
-            <ul>   <li>2020 © IRCHAD, All Rights Reserved</li></ul>
-          </div>
+            <div class="column-4 row-flex flex-col align-center justify-end">
+              <ul>
+                <li>2020 © IRCHAD, All Rights Reserved</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
-
+    </footer>
+    <script src="build/main.js"></script>
     <!-- fin footer -->
   </body>
 </html>

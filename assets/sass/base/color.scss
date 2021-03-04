@@ -19,7 +19,7 @@ color: helpers.$blueInit;
     }
     
     .blueDark{
-        color: helpers.$blueInit;
+        color: helpers.$blueDark;
         }
 
     .greyBlue{
@@ -34,3 +34,6 @@ color: helpers.$blueInit;
 
         background:helpers.$greenPrimary;
     }
+.blue-middle-bg{
+    background:helpers.$blueMiddle;
+}

@@ -151,7 +151,7 @@
 
 .apropos .card {
   position: relative;
-  width: 45%;
+  width: 20%;
   padding: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
   margin-bottom: 2rem;
@@ -168,6 +168,49 @@
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
+}
+
+.faq .card {
+  position: relative;
+  width: 90%;
+  padding: 10px 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
+  margin-bottom: 2rem;
+}
+.faq .card p {
+  color: #7A839E;
+}
+.faq .card:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 3px;
+  height: 100%;
+}
+
+.contact-section .field-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section .field-input {
+  padding: 0 0rem;
+  margin: 1rem 0;
+}
+
+.contact-section .form-input {
+  width: calc(100% - 2rem);
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #7A839E;
+}
+
+.contact-section select.form-input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #7A839E;
 }
 
 @media (min-width: 475px) {

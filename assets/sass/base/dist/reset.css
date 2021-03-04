@@ -14,6 +14,10 @@
   display: block;
 }
 
+.p-relative {
+  position: relative;
+}
+
 a {
   text-decoration: none;
   color: #0969C9;
@@ -30,6 +34,23 @@ li {
 body, html {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: none;
+}
+
+ul {
+  box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.word-break {
+  word-break: break-all;
 }
 
 .section-my {
@@ -197,7 +218,27 @@ body, html {
 }
 
 .h-card-100 {
-  height: calc(100% - 5rem);
+  height: 100%;
+}
+
+.pt0 {
+  padding-top: 0rem;
+}
+
+.pt1 {
+  padding-top: 0.3rem;
+}
+
+.pt2 {
+  padding-top: 0.6rem;
+}
+
+.pt3 {
+  padding-top: 0.9rem;
+}
+
+.pt4 {
+  padding-top: 1.2rem;
 }
 
 .px0 {

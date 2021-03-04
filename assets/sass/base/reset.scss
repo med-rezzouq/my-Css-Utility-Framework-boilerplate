@@ -1,3 +1,5 @@
+
+
 @use '../helpers' as helpers;
 
 *{
@@ -14,7 +16,9 @@
 .dblock{
     display:block;
 }
-
+.p-relative{
+    position: relative;
+}
 a{
     text-decoration: none;
     color:helpers.$blueInit;
@@ -32,9 +36,23 @@ a:active,a:hover{
 body,html{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
+p{
+    margin:none;
+}
+ul{ box-sizing: border-box;}
 
+
+
+.pointer{
+    cursor:pointer;
+}
+
+.word-break{
+    word-break: break-all;
+}
 .section-my{
     margin:2rem 0;
 }
@@ -45,6 +63,7 @@ body,html{
 .section-mb{
     margin-bottom:1rem;
 }
+
 .h-10{height:10%;}
 .h-15{height:15%;}
 .h-20{height:20%;}
@@ -85,7 +104,26 @@ body,html{
 .w-100{width:100%;}
 
 .h-card-100{
-    height:calc(100% - 5rem);
+    height:100%;
+}
+
+.pt0{
+    padding-top:0rem;
+}
+
+.pt1{
+padding-top:0.3rem;
+}
+.pt2{
+    padding-top:0.6rem;
+}
+
+.pt3{
+    padding-top:0.9rem;
+}
+
+.pt4{
+    padding-top:1.2rem;
 }
 .px0{
     padding-left:0rem;

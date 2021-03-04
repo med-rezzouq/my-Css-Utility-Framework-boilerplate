@@ -36,7 +36,7 @@
        }
        
        .contact-section .form-lg-input{
-           width:calc(100% - 3rem);
+           width:calc(100% - 2rem);
            padding:1rem 1rem;
      
            font-size:1rem;
@@ -64,7 +64,7 @@
             border:1px solid helpers.$greyBlue;
         }
         .soumissionner .form-lg-input-one{
-          width:calc(100% - 1rem);
+          width:100%;
           padding:0.35rem 0.5rem;
           font-size:1rem;
           border:1px solid helpers.$greyBlue;

@@ -19,7 +19,7 @@
 }
 
 .blueDark {
-  color: #0969C9;
+  color: #0D3A74;
 }
 
 .greyBlue {
@@ -32,4 +32,8 @@
 
 .green-primary-bg {
   background: #64D88D;
+}
+
+.blue-middle-bg {
+  background: #0961AA;
 }

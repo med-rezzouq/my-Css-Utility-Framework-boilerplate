@@ -23,14 +23,18 @@ a.button-md-light:hover{
 
 
 .button-md-cercle{
-
-    border-radius:50%;
+border-radius:40%;
 }
 
 
 .button-md-cercle:hover{
     background:helpers.$blueMiddle;
 }
+
+.button-lang{
+    border-radius:30px;
+}
+
 
 .button-md-step{
     border:1px solid helpers.$blueDark;
