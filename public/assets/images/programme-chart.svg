@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1382" height="1415" viewBox="0 0 1382 1415">
+  <defs>
+    <filter id="Rectangle_103" x="282" y="0" width="818" height="258" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x2="1.555" y2="1.504" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0961aa"/>
+      <stop offset="1" stop-color="#86d594"/>
+    </linearGradient>
+    <filter id="Rectangle_103-2" x="282" y="390" width="818" height="343" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="-0.39" y1="0.112" x2="1.42" y2="1.3" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0969c9"/>
+      <stop offset="1" stop-color="#64d88d"/>
+    </linearGradient>
+    <filter id="Rectangle_103-3" x="0" y="917" width="554" height="498" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="0.5" x2="1.239" y2="1" xlink:href="#linear-gradient"/>
+    <filter id="Rectangle_222" x="828" y="917" width="554" height="498" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x2="1" y2="2.864" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Groupe_1724" data-name="Groupe 1724" transform="translate(-269 -1520.5)">
+    <g id="Groupe_1645" data-name="Groupe 1645" transform="translate(-87 -147)">
+      <g transform="matrix(1, 0, 0, 1, 356, 1667.5)" filter="url(#Rectangle_103)">
+        <rect id="Rectangle_103-4" data-name="Rectangle 103" width="800" height="240" transform="translate(291 6)" fill="#fff"/>
+      </g>
+      <g id="Groupe_1598" data-name="Groupe 1598" transform="translate(509 1003.5)">
+        <rect id="Rectangle_170" data-name="Rectangle 170" width="3" height="50" rx="1.5" transform="translate(935 690)" fill="#64d88d"/>
+        <rect id="Rectangle_171" data-name="Rectangle 171" width="3" height="30" rx="1.5" transform="translate(935 745)" fill="#64d88d"/>
+        <rect id="Rectangle_172" data-name="Rectangle 172" width="3" height="10" rx="1.5" transform="translate(935 780)" fill="#0961aa"/>
+      </g>
+    </g>
+    <text id="ACCUEIL" transform="translate(896 1676)" fill="#0961aa" font-size="30" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">ACCUEIL</tspan></text>
+    <text id="Remplir_les_informations_de_pré-inscription" data-name="Remplir les informations de pré-inscription" transform="translate(960 1718)" fill="#7a839e" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="-210.27" y="0">Remplir les informations de pré-inscription</tspan></text>
+    <g id="open" transform="translate(909 1540.5)">
+      <path id="Tracé_1333" data-name="Tracé 1333" d="M94.148,38.819H83.509L54.224,16.855a4.787,4.787,0,1,0-6.322,0L18.617,38.819H7.979A7.988,7.988,0,0,0,0,46.8V75.52A7.988,7.988,0,0,0,7.979,83.5H94.148a7.988,7.988,0,0,0,7.979-7.979V46.8A7.988,7.988,0,0,0,94.148,38.819ZM51.063,11.691a1.6,1.6,0,1,1-1.6,1.6A1.6,1.6,0,0,1,51.063,11.691Zm0,6.782L78.19,38.819H23.936ZM98.935,75.52a4.793,4.793,0,0,1-4.787,4.787H7.979A4.793,4.793,0,0,1,3.191,75.52V46.8A4.793,4.793,0,0,1,7.979,42.01H94.148A4.793,4.793,0,0,1,98.935,46.8Z" fill="url(#linear-gradient)"/>
+      <path id="Tracé_1334" data-name="Tracé 1334" d="M34,36.1V55.244a1.6,1.6,0,0,0,1.6,1.6H45.17V53.649H37.191V47.266H45.17V44.074H37.191V37.691H45.17V34.5H35.6A1.6,1.6,0,0,0,34,36.1Z" transform="translate(20.255 15.489)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_1335" data-name="Tracé 1335" d="M52.574,48.485l-6.552-13.1A1.6,1.6,0,0,0,43,36.1V56.84h3.191V42.855l6.55,13.1a1.6,1.6,0,0,0,3.024-.715V34.5H52.574Z" transform="translate(25.616 15.489)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_1336" data-name="Tracé 1336" d="M20.383,34.5A6.389,6.389,0,0,0,14,40.883v9.574a6.383,6.383,0,0,0,12.766,0V40.883A6.389,6.389,0,0,0,20.383,34.5Zm3.191,15.957a3.191,3.191,0,1,1-6.383,0V40.883a3.191,3.191,0,0,1,6.383,0Z" transform="translate(8.34 15.489)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_1337" data-name="Tracé 1337" d="M30.383,34.5H25.6A1.6,1.6,0,0,0,24,36.1V56.84h3.191V47.266h3.191a6.383,6.383,0,1,0,0-12.766Zm0,9.574H27.191V37.691h3.191a3.191,3.191,0,1,1,0,6.383Z" transform="translate(14.297 15.489)" fill="url(#linear-gradient)"/>
+    </g>
+    <line id="Ligne_4" data-name="Ligne 4" y2="150" transform="translate(959.5 1766.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+  <circle id="Ellipse_9" data-name="Ellipse 9" cx="5" cy="5" r="5" transform="translate(686 391.5)" fill="#0969c9"/>
+  <path id="Tracé_1344" data-name="Tracé 1344" d="M4076.183,754.958c-.011-23.373,1.615-34.786,0-40.218-1.579-5.348-7.32-3.8-35.544-3.8-14.642.592-33.839-.016-61.7,0-30.641-.6-130.351-.084-242.312,0-160.052.12-345.807,0-393.91,0-35.2,0-60.863-.216-76.821,0-30.759.416-26.844,4.33-26.682,37.259.032,2.031.021,4.354-.057,6.806" transform="translate(-2969.969 160.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  <circle id="Ellipse_6" data-name="Ellipse 6" cx="5" cy="5" r="5" transform="translate(265 912.5)" fill="#0969c9"/>
+  <circle id="Ellipse_7" data-name="Ellipse 7" cx="5" cy="5" r="5" transform="translate(686 866.5)" fill="#0969c9"/>
+  <circle id="Ellipse_8" data-name="Ellipse 8" cx="5" cy="5" r="5" transform="translate(1102 910.5)" fill="#0969c9"/>
+  <g id="Groupe_1725" data-name="Groupe 1725" transform="translate(-269 -1520.5)">
+    <g id="Groupe_1645-2" data-name="Groupe 1645" transform="translate(-87 243)">
+      <g transform="matrix(1, 0, 0, 1, 356, 1277.5)" filter="url(#Rectangle_103-2)">
+        <rect id="Rectangle_103-5" data-name="Rectangle 103" width="800" height="325" transform="translate(291 396)" fill="#fff"/>
+      </g>
+      <g id="Groupe_1598-2" data-name="Groupe 1598" transform="translate(1444 1693.5)">
+        <rect id="Rectangle_170-2" data-name="Rectangle 170" width="3" height="50" rx="1.5" fill="#64d88d"/>
+        <rect id="Rectangle_171-2" data-name="Rectangle 171" width="3" height="30" rx="1.5" transform="translate(0 55)" fill="#64d88d"/>
+        <rect id="Rectangle_172-2" data-name="Rectangle 172" width="3" height="10" rx="1.5" transform="translate(0 90)" fill="#0961aa"/>
+      </g>
+    </g>
+    <text id="ORIENTATION" transform="translate(960 2105)" fill="#0961aa" font-size="30" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-101.67" y="0">ORIENTATION</tspan></text>
+    <text id="Entretien_de_positionnement_Validation_de_l_inscription" data-name="Entretien de positionnement
+Validation de l’inscription" transform="translate(960 2147)" fill="#7a839e" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="-139.65" y="0">Entretien de positionnement</tspan><tspan x="-123.84" y="30">Validation de l’inscription</tspan></text>
+    <line id="Ligne_5" data-name="Ligne 5" y2="150" transform="translate(960.5 2241.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Tracé_2214" data-name="Tracé 2214" d="M38.295,90.387A41.781,41.781,0,0,1,0,49.394,41.783,41.783,0,0,1,37.948,7.857a41.339,41.339,0,0,1,28.48,8.282L68.762,13.8,66.4,11.444a2.135,2.135,0,0,1,0-3.016l5.182-5.181A11.01,11.01,0,0,1,79.42,0,11.188,11.188,0,0,1,90.5,11.083a11.011,11.011,0,0,1-3.246,7.837L82.075,24.1a2.153,2.153,0,0,1-3.016,0L76.7,21.74l-2.333,2.333a40.961,40.961,0,0,1,5.549,9.853,1.344,1.344,0,1,1-2.5.985C70.572,17.529,51.179,7.259,32.955,11.333,9.395,16.6-3.75,42.915,6.059,64.912,16.916,89.261,49.919,95.322,68.764,76.477A38.642,38.642,0,0,0,79.31,41.3a1.344,1.344,0,0,1,2.634-.539C87.164,66.249,66.929,90.5,41.334,90.5Q39.826,90.5,38.295,90.387ZM68.523,17.846c.734.637,3.5,3.4,4.136,4.131l6.067-6.066-4.134-4.134Zm7.019-8.92,6.035,6.035a1.344,1.344,0,0,1,0,1.9L78.6,19.84l1.968,1.968,4.788-4.788a8.339,8.339,0,0,0,2.459-5.936A8.474,8.474,0,0,0,79.42,2.688a8.34,8.34,0,0,0-5.936,2.459L68.7,9.935,70.663,11.9l2.978-2.978a1.344,1.344,0,0,1,1.9,0Zm-56.9,62.94a32.247,32.247,0,0,1-8-13.254,1.344,1.344,0,1,1,2.569-.792,29.538,29.538,0,0,0,6.4,11.171l3.214-3.214a1.344,1.344,0,1,1,1.9,1.9L21.51,70.894a29.5,29.5,0,0,0,36.111,2.85c-1.057-1.057-2.15-2.085-3.173-3.173a5.947,5.947,0,1,1,8.43-8.391c1.079,1.02,2.1,2.1,3.154,3.154a29.692,29.692,0,0,0-2.852-36.111l-3.216,3.217a1.345,1.345,0,0,1-1.9-1.9l3.215-3.215a29.489,29.489,0,0,0-36.108-2.85c1.057,1.057,2.15,2.086,3.175,3.175a5.946,5.946,0,1,1-8.427,8.392c-1.081-1.021-2.108-2.108-3.159-3.159A29.476,29.476,0,0,0,12,51.564a1.344,1.344,0,0,1-2.68.222A32.151,32.151,0,0,1,15.492,30a32.5,32.5,0,0,1,30.48-12.754C67.2,20.258,79.709,43.895,70.347,63.177a32.227,32.227,0,0,1-29.191,17.91A31.617,31.617,0,0,1,18.637,71.866Zm36.744-5.512a3.238,3.238,0,0,0,.954,2.3l3.485,3.484a29.983,29.983,0,0,0,4.609-4.608L60.944,64.05a3.119,3.119,0,0,0-2.234-.929A3.282,3.282,0,0,0,55.381,66.354ZM18.359,30.682l3.488,3.488a3.285,3.285,0,0,0,5.561-2.3,3.239,3.239,0,0,0-.954-2.3l-3.489-3.488A29.914,29.914,0,0,0,18.359,30.682Zm8.032,29.59,8.535-17.033a1.367,1.367,0,0,1,.6-.6l17.031-8.534a2.862,2.862,0,0,1,3.841,3.84h0L47.863,54.978a1.364,1.364,0,0,1-.6.6L30.231,64.112a2.775,2.775,0,0,1-1.251.3A2.9,2.9,0,0,1,26.391,60.272Zm2.4,1.2a.174.174,0,0,0,.233.234l15.367-7.7-7.9-7.9ZM53.761,36.509,38.4,44.208l7.9,7.9,7.7-15.366a.175.175,0,0,0-.155-.252A.172.172,0,0,0,53.761,36.509Z" transform="translate(915 1962.265)" fill="url(#linear-gradient-6)"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_103-3)">
+    <rect id="Rectangle_103-6" data-name="Rectangle 103" width="536" height="480" transform="translate(9 923)" fill="#fff"/>
+  </g>
+  <g id="Groupe_1653" data-name="Groupe 1653" transform="translate(-395 -1630.5)">
+    <g id="Groupe_1598-3" data-name="Groupe 1598" transform="translate(2 1883.5)">
+      <rect id="Rectangle_170-3" data-name="Rectangle 170" width="3" height="50" rx="1.5" transform="translate(935 690)" fill="#64d88d"/>
+      <rect id="Rectangle_171-3" data-name="Rectangle 171" width="3" height="30" rx="1.5" transform="translate(935 745)" fill="#64d88d"/>
+      <rect id="Rectangle_172-3" data-name="Rectangle 172" width="3" height="10" rx="1.5" transform="translate(935 780)" fill="#0961aa"/>
+    </g>
+  </g>
+  <text id="FORMATION" transform="translate(186 1161.5)" fill="#0961aa" font-size="30" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">FORMATION</tspan></text>
+  <text id="Planifier_la_formation_Exécuter_la_formation_Évaluer_la_formation_Réorienter_vers_l_espace_de_provenance" data-name="Planifier la formation
+Exécuter la formation
+Évaluer la formation
+Réorienter vers l’espace de provenance" transform="translate(277 1203.5)" fill="#7a839e" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="-102.06" y="0">Planifier la formation</tspan><tspan x="-105.09" y="30">Exécuter la formation</tspan><tspan x="-99.09" y="60">Évaluer la formation</tspan><tspan x="-196.38" y="90">Réorienter vers l’espace de provenance</tspan></text>
+  <g id="Groupe_1685" data-name="Groupe 1685" transform="translate(-6011.69 -1924.773)">
+    <path id="Tracé_2255" data-name="Tracé 2255" d="M177.965,116.5l14.21-5.186a3.223,3.223,0,0,0,0-6.054l-46.862-17.1a10.83,10.83,0,0,0-7.417,0l-46.862,17.1a3.223,3.223,0,0,0,0,6.055l14.21,5.186v27.954a6.649,6.649,0,0,0,2.059,4.77,34.809,34.809,0,0,0,4.084,3.285h0a8.38,8.38,0,0,0-2.5,5.942v1.592a3.378,3.378,0,0,0,.6,1.924l-2.3,5.3a2.365,2.365,0,0,0,4.339,1.882l2.166-4.993q.464.149.937.255v5.324a2.365,2.365,0,0,0,4.73,0V164.41q.473-.106.937-.255l2.166,4.993a2.365,2.365,0,0,0,4.339-1.882l-2.3-5.3a3.379,3.379,0,0,0,.6-1.924v-1.221a60.747,60.747,0,0,0,16.5,2.246c12.075,0,25.606-3.644,34.3-11.846a6.67,6.67,0,0,0,2.059-4.77c0-3.162,0-24.749,0-27.954ZM139.517,92.6a6.094,6.094,0,0,1,4.174,0l42.982,15.687-42.982,15.686a6.1,6.1,0,0,1-4.174,0L123,117.945l13.667-6.75,1.231.449a10.832,10.832,0,0,0,7.417,0l2.181-.8a3.393,3.393,0,0,0,2.223-3.177v-1.742a8.153,8.153,0,0,0-7.959-8.112,7.987,7.987,0,0,0-5.764,2.321,8.38,8.38,0,0,0-2.5,5.942v1.408c-17.252,8.521-16.151,7.955-16.575,8.239l-20.381-7.438Zm-1.3,14.126v-.649a3.624,3.624,0,0,1,1.086-2.566,3.278,3.278,0,0,1,2.362-.967,3.4,3.4,0,0,1,3.318,3.383v.8l-1.3.473a6.1,6.1,0,0,1-4.173,0ZM114.63,137.76a30.45,30.45,0,0,1-4.082-3.213,1.834,1.834,0,0,1-.575-1.329V118.227l4.66,1.7C114.628,120.232,114.63,117.881,114.63,137.76ZM113.611,159.1a3.962,3.962,0,0,1,1.086-3.215,3.289,3.289,0,0,1,2.362-.967c2.428.046,3.318,1.762,3.318,4.182C117.536,160.138,117.027,160.348,113.611,159.1Zm1.018-10.106a30.808,30.808,0,0,1-3.718-2.879,2.117,2.117,0,0,1-.94-1.662V140.25a39.26,39.26,0,0,0,4.657,3.029Zm8.758,4.319a8.074,8.074,0,0,0-4.027-2.774v-4.97a56.4,56.4,0,0,0,16.511,4,2.365,2.365,0,0,0,.429-4.711,50.721,50.721,0,0,1-16.94-4.449v-18.76l18.536,6.765a10.831,10.831,0,0,0,7.417,0h0l27.923-10.19v14.992a1.834,1.834,0,0,1-.575,1.329c-5.945,5.607-15.331,9.367-25.752,10.314a2.365,2.365,0,0,0,.429,4.711c10.029-.912,19.259-4.261,25.9-9.323v4.205a1.851,1.851,0,0,1-.575,1.329c-7.857,7.411-20.223,10.557-31.056,10.557a54.749,54.749,0,0,1-18.216-3.026Z" transform="translate(6145.463 2862)" fill="url(#linear-gradient-7)"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_222)">
+    <rect id="Rectangle_222-2" data-name="Rectangle 222" width="536" height="480" transform="translate(837 923)" fill="#fff"/>
+  </g>
+  <g id="Groupe_1654" data-name="Groupe 1654" transform="translate(433 -1630.5)">
+    <g id="Groupe_1598-4" data-name="Groupe 1598" transform="translate(2 1883.5)">
+      <rect id="Rectangle_170-4" data-name="Rectangle 170" width="3" height="50" rx="1.5" transform="translate(935 690)" fill="#64d88d"/>
+      <rect id="Rectangle_171-4" data-name="Rectangle 171" width="3" height="30" rx="1.5" transform="translate(935 745)" fill="#64d88d"/>
+      <rect id="Rectangle_172-4" data-name="Rectangle 172" width="3" height="10" rx="1.5" transform="translate(935 780)" fill="#0961aa"/>
+    </g>
+  </g>
+  <text id="ENTREPRENARIAT" transform="translate(1105 1161.5)" fill="#0961aa" font-size="30" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-129.87" y="0">ENTREPRENARIAT</tspan></text>
+  <text id="Accompagnement_pré-création_Accompagnement_à_la_création_Accompagnement_post-création" data-name="Accompagnement pré-création
+Accompagnement à la création
+Accompagnement post-création" transform="translate(1105 1203.5)" fill="#7a839e" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="-163.72" y="0">Accompagnement </tspan><tspan y="0" font-family="Poppins-Bold, Poppins" font-weight="700">pré-création</tspan><tspan x="-161.46" y="30">Accompagnement </tspan><tspan y="30" font-family="Poppins-Bold, Poppins" font-weight="700">à la création</tspan><tspan x="-169.29" y="60">Accompagnement </tspan><tspan y="60" font-family="Poppins-Bold, Poppins" font-weight="700">post-création</tspan></text>
+  <g id="briefcase" transform="translate(1056 989.893)">
+    <g id="Groupe_1687" data-name="Groupe 1687" transform="translate(2.216 81.442)">
+      <g id="Groupe_1686" data-name="Groupe 1686">
+        <path id="Tracé_2256" data-name="Tracé 2256" d="M102.488,279.273a2.093,2.093,0,0,0-2.216,2.216V310.3a2.093,2.093,0,0,1-2.216,2.216H18.284a2.093,2.093,0,0,1-2.216-2.216V281.489a2.093,2.093,0,0,0-2.216-2.216,2.094,2.094,0,0,0-2.216,2.216V310.3a6.529,6.529,0,0,0,6.648,6.648H98.056A6.529,6.529,0,0,0,104.7,310.3V281.489A2.093,2.093,0,0,0,102.488,279.273Z" transform="translate(-11.637 -279.273)" fill="url(#linear-gradient-8)"/>
+      </g>
+    </g>
+    <g id="Groupe_1689" data-name="Groupe 1689" transform="translate(0 50.42)">
+      <g id="Groupe_1688" data-name="Groupe 1688">
+        <path id="Tracé_2257" data-name="Tracé 2257" d="M90.851,116.364H6.648A6.529,6.529,0,0,0,0,123.012v14.182a6.652,6.652,0,0,0,5.1,6.426l34.789,7.756v7.091a2.093,2.093,0,0,0,2.216,2.216H55.4a2.093,2.093,0,0,0,2.216-2.216v-7.091L92.4,143.619a6.652,6.652,0,0,0,5.1-6.426V123.011A6.529,6.529,0,0,0,90.851,116.364ZM53.181,156.25H44.318v-8.863h8.863Zm39.886-19.057a2.158,2.158,0,0,1-1.773,2.216l-33.681,7.534V145.17a2.093,2.093,0,0,0-2.216-2.216H42.1a2.093,2.093,0,0,0-2.216,2.216v1.773L6.2,139.409a2.158,2.158,0,0,1-1.773-2.216V123.012A2.093,2.093,0,0,1,6.648,120.8h84.2a2.093,2.093,0,0,1,2.216,2.216Z" transform="translate(0 -116.364)" fill="url(#linear-gradient-8)"/>
+      </g>
+    </g>
+    <g id="Groupe_1691" data-name="Groupe 1691" transform="translate(31.022 34.909)">
+      <g id="Groupe_1690" data-name="Groupe 1690">
+        <path id="Tracé_2258" data-name="Tracé 2258" d="M191.715,34.909H169.557a6.529,6.529,0,0,0-6.648,6.648v2.216a2.216,2.216,0,0,0,4.432,0V41.557a2.093,2.093,0,0,1,2.216-2.216h22.159a2.093,2.093,0,0,1,2.216,2.216v2.216a2.216,2.216,0,1,0,4.432,0V41.557A6.528,6.528,0,0,0,191.715,34.909Z" transform="translate(-162.909 -34.909)" fill="url(#linear-gradient-8)"/>
+      </g>
+    </g>
+  </g>
+</svg>
