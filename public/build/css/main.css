@@ -2457,6 +2457,12 @@ nav.nav-desktop {
   font-weight: 400;
 }
 
+.flex-nav li:not(:last-of-type) a:hover {
+  padding-bottom: 0.5rem;
+  background: url("../../images/line1.svg") no-repeat;
+  background-position: 0px bottom;
+}
+
 .lang-resp {
   display: flex;
 }
