@@ -3,5 +3,9 @@ let mix = require("laravel-mix");
 // require("popper");
 // require("bootstrap");
 mix
-  .sass("assets/sass/main.scss", "public/build")
-  .js("assets/js/main.js", "public/build");
+  .options({
+    processCssUrls: false,
+  })
+  .copyDirectory("assets/images", "public/images")
+  .sass("assets/sass/main.scss", "public/build/css")
+  .js("assets/js/main.js", "public/build/css");

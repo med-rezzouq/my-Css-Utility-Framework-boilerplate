@@ -1,6 +1,14 @@
 .pourquoi-irchad-section img {
   height: 120px;
-  width: 190px;
+  width: 80px;
+}
+
+.pourquoi-irchad-section {
+  background: #FCFCFC;
+}
+
+.pourquoi-irchad-section article p {
+  max-width: 50ch;
 }
 
 .pourquoi-irchad-section article.ml {

@@ -16,3 +16,8 @@
   width: 3px;
   height: 100%;
 }
+.faq .card h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0969C9;
+}

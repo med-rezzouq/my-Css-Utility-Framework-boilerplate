@@ -6,14 +6,14 @@
   margin-bottom: 2rem;
 }
 .programme .card p {
-  color: #7A839E;
+  color: #7a839e;
 }
 .programme .card:after {
   content: " ";
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url("../../images/right-border-card.svg");
+  background-image: url("../images/right-border-card.svg");
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;

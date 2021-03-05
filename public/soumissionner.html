@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="build/main.css" />
+    <link rel="stylesheet" href="build/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -18,16 +18,16 @@
       <section class="header header-before-stick" data-title="header-section">
         <div class="container">
           <div class="row row-flex ht-100 align-center">
-            <div class="column-2 column-xl-3 row-flex align-center">
+            <div class="column-3 column-xs-2 column-xl-3 row-flex align-center">
               <a href="./"
-                ><img src="assets/images/irchadlogo.svg" class="" alt=""
+                ><img src="images/irchadlogo.svg" class="" alt=""
               /></a>
-              <a href="./"
-                ><img src="assets/images/logo.svg" class="img-indh" alt=""
+              <a href="./" class="row-flex align-center"
+                ><img src="images/logo.svg" class="img-indh" alt=""
               /></a>
             </div>
             <div
-              class="column-10 column-xl-9 row-flex justify-between align-center"
+              class="column-9 column-xs-10 column-xl-9 row-flex justify-between align-center"
             >
               <div class="column-grow flex-row align-center">
                 <nav class="nav-desktop">
@@ -58,13 +58,32 @@
                     </div>
                   </li>
                 </ul>
-                <ul class="flex-nav-lang">
+                <ul class="flex-nav-lang lang">
                   <li>
-                    <a href="" class="button-lang whiteBg blueDark p2">Arabe</a>
+                    <a
+                      href=""
+                      class="button-lang ar not-active-lang blueDark p2"
+                      >Arabe</a
+                    >
                   </li>
                   <li>
-                    <a href="" class="button-lang blueDarkBg white py2 px2-5"
+                    <a href="" class="button-lang fr blueDarkBg white py2 px2-5"
                       >Français</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="flex-nav-lang lang-resp">
+                  <li>
+                    <a
+                      href=""
+                      class="button-lang ar not-active-lang blueDark p2"
+                      >AR</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="button-lang fr blueDarkBg white py2 px2-5"
+                      >FR</a
                     >
                   </li>
                 </ul>
@@ -76,11 +95,7 @@
                       style="position: absolute; top: 1rem; left: 10px"
                     >
                       <li>
-                        <img
-                          src="assets/images/irchadlogowhite.svg"
-                          class=""
-                          alt=""
-                        />
+                        <img src="images/irchadlogowhite.svg" class="" alt="" />
                       </li>
                     </ul>
                     <a
@@ -141,13 +156,15 @@
     <!-- Soumissioner un projet -->
     <section class="soumissionner" data-title="soumissionner-section">
       <div class="container">
-        <div class="row row-flex justify-center mt8">
+        <div class="row row-flex justify-center my2 mt8">
           <div class="column-1 text-center my-steps" style="position: relative">
             <a href="" class="button-md-step whiteBg blueDark white py2 px4"
               >1</a
             >
           </div>
-          <div class="column-11 row-flex flex-col align-center justify-around">
+          <div
+            class="column-11 row-flex flex-col align-center justify-around pb6"
+          >
             <div class="px5 px-xxs-2 w-lg-100 w-100">
               <h4>Informations personnelles</h4>
               <p>Renseignez vos informations personnelles</p>
@@ -290,13 +307,15 @@
           </div>
         </div>
 
-        <div class="row row-flex justify-center">
+        <div class="row row-flex justify-center my2 mt8">
           <div class="column-1 text-center my-steps" style="position: relative">
             <a href="" class="button-md-step whiteBg blueDark white py2 px3-5"
               >2</a
             >
           </div>
-          <div class="column-11 row-flex flex-col align-center justify-around">
+          <div
+            class="column-11 row-flex flex-col align-center justify-around pb6"
+          >
             <div class="px5 px-xxs-2 w-lg-100 w-100 pb6">
               <h4>Informations professionnelles</h4>
               <p>Renseignez vos informations professionnelles</p>
@@ -343,7 +362,7 @@
                 <div class="field-input field-lg-input w-lg-10 w-10">
                   <a
                     href="#"
-                    class="button-md blueDarkBg white py2 px5 mr-lg-3 mr0"
+                    class="button-md blueDarkBg white py2 px5 mr-lg-3 ml0"
                     >+</a
                   >
                 </div>
@@ -408,7 +427,7 @@
                 <div class="field-input field-lg-input w-lg-10 w-10">
                   <a
                     href="#"
-                    class="button-md blueDarkBg white py2 px5 mr-lg-3 mr0"
+                    class="button-md blueDarkBg white py2 px5 mr-lg-3 ml0"
                     >+</a
                   >
                 </div>
@@ -558,14 +577,15 @@
           </div>
         </div>
 
-
-        <div class="row row-flex justify-center ">
+        <div class="row row-flex justify-center">
           <div class="column-1 text-center my-steps" style="position: relative">
             <a href="" class="button-md-step whiteBg blueDark white py2 px3-5"
               >3</a
             >
           </div>
-          <div class="column-11 row-flex flex-col align-center justify-around">
+          <div
+            class="column-11 row-flex flex-col align-center pb6 justify-around"
+          >
             <div class="px5 px-xxs-2 w-lg-100 w-100">
               <h4>Informations Sur Le Projet</h4>
               <p>Renseignez les détails de votre projet.</p>
@@ -768,7 +788,7 @@
           </div>
         </div>
 
-        <div class="row row-flex justify-center align-center my2 ">
+        <div class="row row-flex justify-center align-center">
           <div class="column-1 text-center my-steps" style="position: relative">
             <a
               href=""
@@ -776,17 +796,17 @@
               >4</a
             >
           </div>
-          <div class="column-11 row-flex  align-center justify-center">
+          <div class="column-11 row-flex align-center justify-center">
             <div class="px5 px-xxs-2 w-lg-100 w-100">
               <h4>Terminé</h4>
             </div>
-            <form action="#" class="w-100"></form>
-              <div class="field-row text-center w-100">
+            <form action="#" class="w-100">
+              <div class="text-center w-100 row-flex justify-end">
                 <a href="#" class="button-md blueDarkBg white py2 px5"
                   >Précédent</a
                 >
 
-                <a href="#" class="button-md blueDarkBg white py2 px5"
+                <a href="#" class="button-md blueDarkBg white py2 px5 mx2"
                   >Envoyer</a
                 >
               </div>
@@ -799,41 +819,45 @@
 
     <!-- footer -->
 
-    <section class="footer-section section-mt" data-title="footer-section">
-      <div class="container">
-        <div class="row row-flex align-end justify-center">
-          <div class="column-4 row-flex flex-col align-center justify-end">
-            <ul>
-              <li>
-                <img
-                  src="assets/images/irchadlogowhite.svg"
-                  class=""
-                  alt=""
-                />
-              </li>
-              <li>4779 Larache Avenue 28306</li>
-              <li><a href="tel:+212 656-525-125">+212 656-525-125</a></li>
-            </ul>
-          </div>
+    <footer>
+      <section class="footer-section section-mt" data-title="footer-section">
+        <div class="container">
+          <div class="row row-flex align-end justify-center">
+            <div
+              class="column-12 column-xs-12 column-md-6 column-lg-4 column-xl-4 row-flex flex-col align-center justify-end"
+            >
+              <ul>
+                <li>
+                  <img src="images/irchadlogowhite.svg" class="" alt="" />
+                </li>
+                <li>4779 Larache Avenue 28306</li>
+                <li><a href="tel:+212 656-525-125">+212 656-525-125</a></li>
+              </ul>
+            </div>
 
-          <div class="column-4 row-flex flex-col align-center justify-end">
-            <ul>
-              <li><a href="#">À Propos</a></li>
-              <li><a href="#">Programme</a></li>
-              <li><a href="#">Soumissionner un projet</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Nous Contacter</a></li>
-            </ul>
-          </div>
+            <div
+              class="column-12 column-xs-12 column-md-6 column-lg-4 column-xl-4 row-flex flex-col align-center justify-end"
+            >
+              <ul>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Programme</a></li>
+                <li><a href="#">Soumissionner un projet</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Nous Contacter</a></li>
+              </ul>
+            </div>
 
-          <div class="column-4 row-flex flex-col align-center justify-end">
-            <ul>
-              <li>2020 © IRCHAD, All Rights Reserved</li>
-            </ul>
+            <div
+              class="column-12 column-xs-12 column-md-6 column-lg-4 column-xl-4 row-flex flex-col align-center justify-end"
+            >
+              <ul>
+                <li>2020 © IRCHAD, All Rights Reserved</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </footer>
 
     <!-- fin footer -->
   </body>

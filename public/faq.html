@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="build/main.css" />
+    <link rel="stylesheet" href="build/css/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -18,16 +18,16 @@
       <section class="header header-before-stick" data-title="header-section">
         <div class="container">
           <div class="row row-flex ht-100 align-center">
-            <div class="column-2 column-xl-3 row-flex align-center">
+            <div class="column-3 column-xs-2 column-xl-3 row-flex align-center">
               <a href="./"
-                ><img src="assets/images/irchadlogo.svg" class="" alt=""
+                ><img src="images/irchadlogo.svg" class="" alt=""
               /></a>
-              <a href="./"
-                ><img src="assets/images/logo.svg" class="img-indh" alt=""
+              <a href="./" class="row-flex align-center"
+                ><img src="images/logo.svg" class="img-indh" alt=""
               /></a>
             </div>
             <div
-              class="column-10 column-xl-9 row-flex justify-between align-center"
+              class="column-9 column-xs-10 column-xl-9 row-flex justify-between align-center"
             >
               <div class="column-grow flex-row align-center">
                 <nav class="nav-desktop">
@@ -58,13 +58,32 @@
                     </div>
                   </li>
                 </ul>
-                <ul class="flex-nav-lang">
+                <ul class="flex-nav-lang lang">
                   <li>
-                    <a href="" class="button-lang whiteBg blueDark p2">Arabe</a>
+                    <a
+                      href=""
+                      class="button-lang ar not-active-lang blueDark p2"
+                      >Arabe</a
+                    >
                   </li>
                   <li>
-                    <a href="" class="button-lang blueDarkBg white py2 px2-5"
+                    <a href="" class="button-lang fr blueDarkBg white py2 px2-5"
                       >Français</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="flex-nav-lang lang-resp">
+                  <li>
+                    <a
+                      href=""
+                      class="button-lang ar not-active-lang blueDark p2"
+                      >AR</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="button-lang fr blueDarkBg white py2 px2-5"
+                      >FR</a
                     >
                   </li>
                 </ul>
@@ -76,11 +95,7 @@
                       style="position: absolute; top: 1rem; left: 10px"
                     >
                       <li>
-                        <img
-                          src="assets/images/irchadlogowhite.svg"
-                          class=""
-                          alt=""
-                        />
+                        <img src="images/irchadlogowhite.svg" class="" alt="" />
                       </li>
                     </ul>
                     <a
@@ -143,17 +158,19 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">Qui peut soumissionner un projet ?</h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer dnone plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">Qui peut soumissionner un projet ?</h3>
+              <img
+                src="images/plusicon.svg"
+                class="pointer dnone plusicon"
+                alt=""
+              />
+              <img
+                src="images/minusicon.svg"
+                class="pointer minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dblock">
               <p>
@@ -168,17 +185,15 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">Comment se fait la sélection des projets ?</h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">Comment se fait la sélection des projets ?</h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -193,20 +208,18 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              Quels sont les critères d'éligibilité fixés pour la sélection de
-              projets ?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Quels sont les critères d'éligibilité fixés pour la sélection de
+                projets ?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -223,20 +236,17 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              porteur de projet pourrait-il bénéficier d'un accompagnement avant
-              la création de son entrepise?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Quels projets sont considérés comme non éligibles?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -254,20 +264,18 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              Le porteur de projet pourrait-il bénéficier d'un accompagnement
-              après la création de son entreprise?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Le porteur de projet pourrait-il bénéficier d'un accompagnement
+                après la création de son entreprise?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -286,20 +294,18 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              Mon projet est en activité depuis moin de 12 mois, pourrais-je
-              bénéficier d'un accompagnement?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Le porteur de projet pourrait-il bénéficier d'un accompagnement
+                après la création de son entreprise?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -319,17 +325,18 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">Un projet validé est-il éditable ?</h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Mon projet est en activité depuis moin de 12 mois, pourrais-je
+                bénéficier d'un accompagnement?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -343,20 +350,15 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              Les porteurs de projets doivent-ils contribuer financièrement au
-              projet ?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">Un projet validé est-il éditable ?</h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -369,20 +371,18 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              Les porteurs de projets doivent-ils contribuer financièrement au
-              projet ?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Les porteurs de projets doivent-ils contribuer financièrement au
+                projet ?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -396,19 +396,17 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              A combien s’élève la contribution financière par l’INDH ?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                A combien s’élève la contribution financière par l’INDH ?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -422,20 +420,18 @@
           <div
             class="card row-flex flex-wrap justify-between align-center w-80"
           >
-            <h3 class="">
-              Dois-je céder des parts sociales à l’INDH suite à sa contribution
-              au financement du projet ?
-            </h3>
-            <img
-              src="assets/images/plusicon.svg"
-              class="pointer plusicon"
-              alt=""
-            />
-            <img
-              src="assets/images/minusicon.svg"
-              class="pointer dnone minusicon"
-              alt=""
-            />
+            <div class="row-flex justify-between w-100">
+              <h3 class="">
+                Dois-je céder des parts sociales à l’INDH suite à sa
+                contribution au financement du projet ?
+              </h3>
+              <img src="images/plusicon.svg" class="pointer plusicon" alt="" />
+              <img
+                src="images/minusicon.svg"
+                class="pointer dnone minusicon"
+                alt=""
+              />
+            </div>
 
             <div class="cardbody dnone">
               <p>
@@ -454,21 +450,21 @@
       <section class="footer-section section-mt" data-title="footer-section">
         <div class="container">
           <div class="row row-flex align-end justify-center">
-            <div class="column-4 row-flex flex-col align-center justify-end">
+            <div
+              class="column-12 column-xs-12 column-md-6 column-lg-4 column-xl-4 row-flex flex-col align-center justify-end"
+            >
               <ul>
                 <li>
-                  <img
-                    src="assets/images/irchadlogowhite.svg"
-                    class=""
-                    alt=""
-                  />
+                  <img src="images/irchadlogowhite.svg" class="" alt="" />
                 </li>
                 <li>4779 Larache Avenue 28306</li>
                 <li><a href="tel:+212 656-525-125">+212 656-525-125</a></li>
               </ul>
             </div>
 
-            <div class="column-4 row-flex flex-col align-center justify-end">
+            <div
+              class="column-12 column-xs-12 column-md-6 column-lg-4 column-xl-4 row-flex flex-col align-center justify-end"
+            >
               <ul>
                 <li><a href="#">À Propos</a></li>
                 <li><a href="#">Programme</a></li>
@@ -478,7 +474,9 @@
               </ul>
             </div>
 
-            <div class="column-4 row-flex flex-col align-center justify-end">
+            <div
+              class="column-12 column-xs-12 column-md-6 column-lg-4 column-xl-4 row-flex flex-col align-center justify-end"
+            >
               <ul>
                 <li>2020 © IRCHAD, All Rights Reserved</li>
               </ul>

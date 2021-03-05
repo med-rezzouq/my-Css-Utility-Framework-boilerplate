@@ -16,6 +16,7 @@ nav.nav-desktop{
 
 .flex-burger{
   margin:0;
+  padding-left:1rem;
 }
 .column-grow{width: 100%;
   display: flex;
@@ -30,7 +31,7 @@ display:flex;
 justify-content:space-between;
 align-content:center;
 align-items:center;
-background:#fff;
+
 
 
 }
@@ -53,6 +54,13 @@ background:#fff;
     font-family:"Poppins";
     font-weight:400;
 }
+
+.lang-resp{
+  display:flex;
+}
+.lang{
+  display:none;
+}
 .flex-welcome-buttons{
   padding:0;
 }
@@ -62,6 +70,11 @@ background:#fff;
   
   font-family:"Poppins";
   font-weight:500;
+}
+.flex-welcome-buttons a{
+
+  display:flex;
+  font-size: 0.8rem;
 }
 
 .header-before-stick{ opacity: 1;
@@ -85,6 +98,25 @@ opacity: 0.95;
     margin-left:1rem;
 
 }
+header{
+
+  padding:2rem 0 8rem 0;
+  position:relative;
+}
+
+header::before{
+  content:'';
+  background:url('../../images/welcomebg.svg');
+  height: 100%;
+opacity:0.6;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-size:cover;
+z-index: -1;
+
+}
 
 
 .nav-mobile ul li:not(:last-of-type):hover{
@@ -95,6 +127,11 @@ color:helpers.$blueDark;
   background:helpers.$whitePrimary;
   color:helpers.$blueDark;
   }
+
+  .welcome-img{
+    width:70%;
+  }
+  
 // fin partie header
 
 
@@ -102,7 +139,8 @@ color:helpers.$blueDark;
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 99999;
+  overflow: hidden;
     top: 0;
     left: 0;
     background-color: helpers.$blueDark;

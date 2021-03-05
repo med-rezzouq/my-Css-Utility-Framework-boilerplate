@@ -25,14 +25,14 @@
   width: calc(100% - 2rem);
   padding: 1rem 1rem;
   font-size: 1rem;
-  border: 1px solid #7A839E;
+  border: 1px solid #7a839e;
 }
 
 .contact-section select.form-input {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1rem;
-  border: 1px solid #7A839E;
+  border: 1px solid #7a839e;
 }
 
 .soumissionner .field-row {
@@ -45,7 +45,8 @@
   margin: 1rem 0;
 }
 
-.soumissionner .form-input, .soumissionner .form-lg-input-one {
+.soumissionner .form-input,
+.soumissionner .form-lg-input-one {
   border-radius: 4px;
 }
 
@@ -53,20 +54,20 @@
   width: calc(100% - 1rem);
   padding: 0.35rem 0.5rem;
   font-size: 1rem;
-  border: 1px solid #7A839E;
+  border: 1px solid #7a839e;
 }
 
 .soumissionner select.form-input {
   width: 100%;
   padding: 0.35rem 0.5rem;
   font-size: 1rem;
-  border: 1px solid #7A839E;
+  border: 1px solid #7a839e;
 }
 
 .soumissionner .column-11 h4 {
   margin: 0;
   padding: 0;
-  color: #0D3A74;
+  color: #0d3a74;
 }
 
 .soumissionner .column-11 p {
@@ -92,7 +93,7 @@
   position: absolute;
   left: calc(50% - 1px);
   top: 0px;
-  background: #0D3A74;
+  background: #0d3a74;
   width: 1px;
   z-index: -1;
   height: 100%;
@@ -108,7 +109,8 @@
   margin: 1rem 0;
 }
 
-.seconnecter .form-input, .soumissionner .form-lg-input-one {
+.seconnecter .form-input,
+.soumissionner .form-lg-input-one {
   border-radius: 1.2rem;
   box-shadow: 0px 2.5px 5px -4px #000;
 }
@@ -136,14 +138,14 @@
   margin-bottom: 2rem;
 }
 .programme .card p {
-  color: #7A839E;
+  color: #7a839e;
 }
 .programme .card:after {
   content: " ";
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url("../../images/right-border-card.svg");
+  background-image: url("../images/right-border-card.svg");
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
@@ -157,14 +159,14 @@
   margin-bottom: 2rem;
 }
 .apropos .card p {
-  color: #7A839E;
+  color: #7a839e;
 }
 .apropos .card:after {
   content: " ";
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url("../../images/right-border-card.svg");
+  background-image: url("../images/right-border-card.svg");
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
@@ -178,7 +180,7 @@
   margin-bottom: 2rem;
 }
 .faq .card p {
-  color: #7A839E;
+  color: #7a839e;
 }
 .faq .card:after {
   content: " ";
@@ -203,14 +205,14 @@
   width: calc(100% - 2rem);
   padding: 1rem 1rem;
   font-size: 1rem;
-  border: 1px solid #7A839E;
+  border: 1px solid #7a839e;
 }
 
 .contact-section select.form-input {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1rem;
-  border: 1px solid #7A839E;
+  border: 1px solid #7a839e;
 }
 
 @media (min-width: 475px) {
@@ -249,7 +251,7 @@
     width: calc(100% - 3rem);
     padding: 1rem 1rem;
     font-size: 1rem;
-    border: 1px solid #7A839E;
+    border: 1px solid #7a839e;
   }
 
   .soumissionner .field-lg-row {
@@ -267,20 +269,20 @@
     width: calc(100% - 2rem);
     padding: 0.35rem 0.5rem;
     font-size: 1rem;
-    border: 1px solid #7A839E;
+    border: 1px solid #7a839e;
   }
 
   .soumissionner .form-lg-input-one {
     width: calc(100% - 1rem);
     padding: 0.35rem 0.5rem;
     font-size: 1rem;
-    border: 1px solid #7A839E;
+    border: 1px solid #7a839e;
   }
 
   .soumissionner select.form-lg-input {
     width: calc(100% - 1.6rem);
     padding: 0.35rem 0.5rem;
     font-size: 1rem;
-    border: 1px solid #7A839E;
+    border: 1px solid #7a839e;
   }
 }

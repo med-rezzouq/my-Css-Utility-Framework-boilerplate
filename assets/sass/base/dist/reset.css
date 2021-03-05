@@ -549,12 +549,32 @@ ul {
   margin-top: 8rem;
 }
 
-.mr0 {
+.ml0 {
   margin-left: 0rem;
 }
 
-.mr3 {
+.ml3 {
   margin-left: 0.9rem;
+}
+
+.mr0 {
+  margin-right: 0rem;
+}
+
+.mr3 {
+  margin-right: 0.9rem;
+}
+
+.mb4 {
+  margin-bottom: 1.2rem;
+}
+
+.mb5 {
+  margin-bottom: 1.5rem;
+}
+
+.mb6 {
+  margin-bottom: 1.8rem;
 }
 
 .mb8 {

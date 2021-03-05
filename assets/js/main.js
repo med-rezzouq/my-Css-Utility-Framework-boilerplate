@@ -2,6 +2,7 @@ const headerMenu = document.querySelector(".header");
 const burgerMenu = document.querySelector(".flex-burger .btn-menu");
 const burgerMenuSpan = document.querySelector(".flex-burger .btn-menu");
 const closebtn = document.querySelector(".closebtn");
+const notActiveLang = document.querySelector(".not-active-lang");
 burgerMenu.addEventListener("click", () => {
   document.getElementById("mySidenav").style.width = "100%";
 });
@@ -75,8 +76,12 @@ window.addEventListener("scroll", function (event) {
   if (window.scrollY > 100) {
     headerMenu.classList.add("header-stick");
     headerMenu.classList.remove("header-before-stick");
+
+    notActiveLang.classList.remove("whiteBg");
+    notActiveLang.classList.add("whiteBg");
   } else {
     headerMenu.classList.remove("header-stick");
     headerMenu.classList.add("header-before-stick");
+    notActiveLang.classList.remove("whiteBg");
   }
 });

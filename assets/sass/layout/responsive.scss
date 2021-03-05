@@ -1,5 +1,14 @@
 @media (min-width: 475px) {
-  
+  .lang-resp{
+    display:none;
+  }
+  .lang{
+    display:flex;
+  }
+
+  .flex-welcome-buttons a{
+    font-size: 1rem;
+  }
   }
 
 @media (min-width: 640px) {
@@ -10,11 +19,20 @@
 .welcome-img{
   width:70%;
 }
+
+
   
 }
 
 @media (min-width: 1024px) {
-  .column-grow{width: auto;
+
+
+
+
+  .column-grow{width: auto;  }
+
+.flex-nav li{
+  margin-right: 0.6rem;
 }
 
 .welcome-img{
@@ -33,6 +51,12 @@
   
 @media (min-width: 1280px) {
   .header .img-indh{display:inline;}
+
+   .flex-nav li{
+    margin-right: 1rem;
+  }
+
+
 }
 
 
