@@ -42,13 +42,15 @@ function hideCards() {
 document.querySelectorAll(".plusicon").forEach(function (plus) {
   plus.addEventListener("click", function () {
     hideCards();
-    var o = plus.nextElementSibling;
+    var o = plus.parentElement;
+    var ms = plus.nextElementSibling;
+    console.log(o);
     var m = o.nextElementSibling;
     plus.classList.remove("dblock");
     plus.classList.add("dnone");
-    o.classList.remove("dnone");
-    o.classList.remove("dblock");
-    o.classList.add("dblock");
+    ms.classList.remove("dnone");
+    ms.classList.remove("dblock");
+    ms.classList.add("dblock");
 
     if (m.className.split(" ").includes("cardbody")) {
       m.classList.remove("dblock");
@@ -59,7 +61,7 @@ document.querySelectorAll(".plusicon").forEach(function (plus) {
 });
 document.querySelectorAll(".minusicon").forEach(function (minus) {
   minus.addEventListener("click", function () {
-    var o = minus.nextElementSibling;
+    var o = minus.parentElement.nextElementSibling;
     var p = minus.previousElementSibling;
     minus.classList.remove("dblock");
     minus.classList.add("dnone");

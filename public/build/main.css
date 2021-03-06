@@ -3091,7 +3091,7 @@ input:checked ~ .checkmark {
   }
 
   .contact-section .form-lg-input {
-    width: calc(100% - 2rem);
+    width: calc(100% - 1rem);
     padding: 1rem 1rem;
     font-size: 1rem;
     border: 1px solid #7A839E;

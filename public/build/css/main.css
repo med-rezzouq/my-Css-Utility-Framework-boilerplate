@@ -1390,7 +1390,7 @@ h1.section-h1-center {
   padding: 0.5rem 0 1rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h1.svg?10585e30abbf464601357208d5f391a2) no-repeat;
+  background: url(/images/section-h1.svg?7402058c6d58db154d7084011aa793f5) no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1401,7 +1401,7 @@ h3.section-h3-center {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
+  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1412,7 +1412,7 @@ h3.section-h3 {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
+  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
   background-position-y: 95%;
   background-position-x: 0%;
 }
@@ -1469,7 +1469,7 @@ h3.section-h3 {
     padding: 0.5rem 0 1rem 0;
     display: inline-block;
     margin: auto;
-    background: url(/images/section-h1.svg?10585e30abbf464601357208d5f391a2) no-repeat;
+    background: url(/images/section-h1.svg?7402058c6d58db154d7084011aa793f5) no-repeat;
     background-position-y: 95%;
     background-position-x: center;
   }
@@ -2459,7 +2459,7 @@ nav.nav-desktop {
 
 .flex-nav li:not(:last-of-type) a:hover {
   padding-bottom: 0.5rem;
-  background: url(/images/line1.svg?be0928830241ce52a7184ecaa059a10a) no-repeat;
+  background: url(/images/line1.svg?043bceeccece4820dbfc739e58cd92df) no-repeat;
   background-position: 0px bottom;
 }
 
@@ -2514,7 +2514,7 @@ header {
 
 header::before {
   content: "";
-  background: url(/images/welcomebg.svg?dc7e57b8e32293e76fb0401e35925b03);
+  background: url(/images/welcomebg.svg?ecf67bc9d50e3b5ca1d998307011c086);
   height: 100%;
   opacity: 0.6;
   width: 100%;
@@ -2984,7 +2984,7 @@ input:checked ~ .checkmark {
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url(/images/right-border-card.svg?4ceba84b965401a93e3126d4a92b5d50);
+  background-image: url(/images/right-border-card.svg?54ad94431786a86c09e3add918ec0e54);
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
@@ -3006,7 +3006,7 @@ input:checked ~ .checkmark {
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url(/images/right-border-card.svg?4ceba84b965401a93e3126d4a92b5d50);
+  background-image: url(/images/right-border-card.svg?54ad94431786a86c09e3add918ec0e54);
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
@@ -3091,7 +3091,7 @@ input:checked ~ .checkmark {
   }
 
   .contact-section .form-lg-input {
-    width: calc(100% - 2rem);
+    width: calc(100% - 1rem);
     padding: 1rem 1rem;
     font-size: 1rem;
     border: 1px solid #7A839E;
