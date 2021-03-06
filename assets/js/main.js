@@ -36,14 +36,16 @@ function hideCards() {
 document.querySelectorAll(".plusicon").forEach((plus) => {
   plus.addEventListener("click", () => {
     hideCards();
-    const o = plus.nextElementSibling;
+    const o = plus.parentElement;
+    const ms = plus.nextElementSibling;
+    console.log(o);
     const m = o.nextElementSibling;
     plus.classList.remove("dblock");
     plus.classList.add("dnone");
 
-    o.classList.remove("dnone");
-    o.classList.remove("dblock");
-    o.classList.add("dblock");
+    ms.classList.remove("dnone");
+    ms.classList.remove("dblock");
+    ms.classList.add("dblock");
 
     if (m.className.split(" ").includes("cardbody")) {
       m.classList.remove("dblock");
@@ -55,7 +57,7 @@ document.querySelectorAll(".plusicon").forEach((plus) => {
 
 document.querySelectorAll(".minusicon").forEach((minus) => {
   minus.addEventListener("click", () => {
-    const o = minus.nextElementSibling;
+    const o = minus.parentElement.nextElementSibling;
     const p = minus.previousElementSibling;
 
     minus.classList.remove("dblock");
