@@ -1,15 +1,16 @@
 @use '../helpers' as helpers;
 .button-md{
-
+    border:none;
     border-radius:1.2rem;
 }
 
-a.button-md:hover{
-    
+a.button-md:hover,
+input.button-md:hover{
+   
     background:helpers.$blueMiddle;
 }
 
-.button-md-ligh{
+.button-md-light{
 
     border-radius:1.2rem;
 }

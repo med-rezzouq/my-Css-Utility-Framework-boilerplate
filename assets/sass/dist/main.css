@@ -192,9 +192,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -202,9 +202,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -213,9 +213,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -265,8 +265,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -276,8 +276,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -285,7 +285,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -295,7 +295,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -343,7 +343,7 @@ template {
 }
 
 .blueInit {
-  color: #0969c9;
+  color: #0969C9;
 }
 
 .white {
@@ -355,31 +355,31 @@ template {
 }
 
 .blueInitbg {
-  background: #0969c9;
+  background: #0969C9;
 }
 
 .blueDarkBg {
-  background: #0d3a74;
+  background: #0D3A74;
 }
 
 .blueDark {
-  color: #0d3a74;
+  color: #0D3A74;
 }
 
 .greyBlue {
-  color: #7a839e;
+  color: #7A839E;
 }
 
 .green-primary {
-  color: #64d88d;
+  color: #64D88D;
 }
 
 .green-primary-bg {
-  background: #64d88d;
+  background: #64D88D;
 }
 
 .blue-middle-bg {
-  background: #0961aa;
+  background: #0961AA;
 }
 
 .container {
@@ -557,9 +557,7 @@ template {
   font-family: "Poppins";
 }
 
-*,
-::before,
-::after {
+*, ::before, ::after {
   box-sizing: none;
 }
 
@@ -577,11 +575,10 @@ template {
 
 a {
   text-decoration: none;
-  color: #0969c9;
+  color: #0969C9;
 }
 
-a:active,
-a:hover {
+a:active, a:hover {
   color: none;
 }
 
@@ -589,8 +586,7 @@ li {
   list-style-type: none;
 }
 
-body,
-html {
+body, html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -1124,6 +1120,14 @@ ul {
   margin-right: 0.9rem;
 }
 
+.mb4 {
+  margin-bottom: 1.2rem;
+}
+
+.mb5 {
+  margin-bottom: 1.5rem;
+}
+
 .mb6 {
   margin-bottom: 1.8rem;
 }
@@ -1388,12 +1392,12 @@ ul {
 }
 
 h1.section-h1-center {
-  font-weight: 700;
-  font-size: 2rem;
-  padding: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 0.5rem 0 1rem 0;
   display: inline-block;
   margin: auto;
-  background: url("../images/section-h1.svg") no-repeat;
+  background: url("../../images/section-h1.svg") no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1404,7 +1408,7 @@ h3.section-h3-center {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url("../images/section-h3.svg") no-repeat;
+  background: url("../../images/section-h3.svg") no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1415,12 +1419,68 @@ h3.section-h3 {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url("../images/section-h3.svg") no-repeat;
+  background: url("../../images/section-h3.svg") no-repeat;
   background-position-y: 95%;
   background-position-x: 0%;
 }
 
+@media (min-width: 475px) {
+  .column-xs-2 {
+    width: 16.666666%;
+  }
+
+  .column-xs-3 {
+    width: 25%;
+  }
+
+  .column-xs-4 {
+    width: 33.333333%;
+  }
+
+  .column-xs-5 {
+    width: 41.666666%;
+  }
+
+  .column-xs-6 {
+    width: 50%;
+  }
+
+  .column-xs-7 {
+    width: 58.333333%;
+  }
+
+  .column-xs-8 {
+    width: 66.666666%;
+  }
+
+  .column-xs-9 {
+    width: 75%;
+  }
+
+  .column-xs-10 {
+    width: 83.333333%;
+  }
+
+  .column-xs-11 {
+    width: 91.666666%;
+  }
+
+  .column-xs-12 {
+    width: 100%;
+  }
+}
 @media (min-width: 640px) {
+  h1.section-h1-center {
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0.5rem 0 1rem 0;
+    display: inline-block;
+    margin: auto;
+    background: url("../../images/section-h1.svg") no-repeat;
+    background-position-y: 95%;
+    background-position-x: center;
+  }
+
   .column-sm-2 {
     width: 16.666666%;
   }
@@ -2383,6 +2443,7 @@ nav.nav-desktop {
 
 .flex-burger {
   margin: 0;
+  padding-left: 1rem;
 }
 
 .column-grow {
@@ -2401,7 +2462,6 @@ nav.nav-desktop {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  background: #fff;
 }
 
 .flex-nav-lang li {
@@ -2420,6 +2480,20 @@ nav.nav-desktop {
   font-weight: 400;
 }
 
+.flex-nav li:not(:last-of-type) a:hover {
+  padding-bottom: 0.5rem;
+  background: url("../../images/line1.svg") no-repeat;
+  background-position: 0px bottom;
+}
+
+.lang-resp {
+  display: flex;
+}
+
+.lang {
+  display: none;
+}
+
 .flex-welcome-buttons {
   padding: 0;
 }
@@ -2429,6 +2503,11 @@ nav.nav-desktop {
   list-style-type: none;
   font-family: "Poppins";
   font-weight: 500;
+}
+
+.flex-welcome-buttons a {
+  display: flex;
+  font-size: 0.8rem;
 }
 
 .header-before-stick {
@@ -2451,14 +2530,32 @@ nav.nav-desktop {
   margin-left: 1rem;
 }
 
+header {
+  padding: 2rem 0 8rem 0;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  background: url("../../images/welcomebg.svg");
+  height: 100%;
+  opacity: 0.6;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
 .nav-mobile ul li:not(:last-of-type):hover {
   background: #fff;
-  color: #0d3a74;
+  color: #0D3A74;
 }
 
 .nav-mobile ul li:not(:last-of-type) a:hover {
   background: #fff;
-  color: #0d3a74;
+  color: #0D3A74;
 }
 
 .welcome-img {
@@ -2469,10 +2566,11 @@ nav.nav-desktop {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 99999;
+  overflow: hidden;
   top: 0;
   left: 0;
-  background-color: #0d3a74;
+  background-color: #0D3A74;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -2491,8 +2589,8 @@ nav.nav-desktop {
 .sidenav a.blueDark {
   margin-top: 0.5rem;
   background: #fff;
-  color: #0d3a74;
-  border: 2px solid #0969c9;
+  color: #0D3A74;
+  border: 2px solid #0969C9;
 }
 
 .sidenav a:hover {
@@ -2517,7 +2615,7 @@ nav.nav-desktop {
   }
 }
 .footer-section {
-  background: #4b5164;
+  background: #4B5164;
   color: white;
   padding: 4rem 0;
 }
@@ -2528,9 +2626,22 @@ nav.nav-desktop {
 }
 
 .footer-section ul li a:hover {
-  color: #0969c9;
+  color: #0969C9;
 }
 
+@media (min-width: 475px) {
+  .lang-resp {
+    display: none;
+  }
+
+  .lang {
+    display: flex;
+  }
+
+  .flex-welcome-buttons a {
+    font-size: 1rem;
+  }
+}
 @media (min-width: 768px) {
   .welcome-img {
     width: 70%;
@@ -2575,7 +2686,7 @@ nav.nav-desktop {
 }
 
 a.button-md:hover {
-  background: #0961aa;
+  background: #0961AA;
 }
 
 .button-md-ligh {
@@ -2591,7 +2702,7 @@ a.button-md-light:hover {
 }
 
 .button-md-cercle:hover {
-  background: #0961aa;
+  background: #0961AA;
 }
 
 .button-lang {
@@ -2599,18 +2710,18 @@ a.button-md-light:hover {
 }
 
 .button-md-step {
-  border: 1px solid #0d3a74;
+  border: 1px solid #0D3A74;
   border-radius: 50%;
   z-index: 1;
   font-weight: 600;
   font-size: 1.2rem;
-  color: #0d3a74;
+  color: #0D3A74;
   background: #fff;
 }
 
 .button-md-step:hover {
   color: #fff;
-  background: #0d3a74;
+  background: #0D3A74;
 }
 
 .btn-menu::after {
@@ -2618,8 +2729,7 @@ a.button-md-light:hover {
   transform: translate3d(0, 7px, 0);
 }
 
-.btn-menu::before,
-.btn-menu::after {
+.btn-menu::before, .btn-menu::after {
   content: "";
   position: absolute;
   height: 2px;
@@ -2630,12 +2740,10 @@ a.button-md-light:hover {
   transform-origin: 50% 50%;
 }
 
-.btn-menu::before,
-.btn-menu::after,
-.btn-menu span {
+.btn-menu::before, .btn-menu::after, .btn-menu span {
   top: 50%;
-  background-color: #0d3a74;
-  color: #0d3a74;
+  background-color: #0D3A74;
+  color: #0D3A74;
   -webkit-transition: all ease 0.238s;
   -moz-transition: all ease 0.238s;
   transition: all ease 0.238s;
@@ -2665,7 +2773,7 @@ a.button-md-light:hover {
   cursor: pointer;
   width: 26px;
   height: 16px;
-  color: #0d3a74;
+  color: #0D3A74;
   -webkit-transition: all ease 0.238s;
   -moz-transition: all ease 0.238s;
   transition: all ease 0.238s;
@@ -2673,7 +2781,7 @@ a.button-md-light:hover {
 
 .card-box {
   padding: 2rem;
-  background: #fcfcfc;
+  background: #FCFCFC;
   width: 100%;
   box-shadow: 0 0px 8px -4px gray;
 }
@@ -2682,6 +2790,31 @@ a.button-md-light:hover {
   min-height: 250px;
   height: 250px;
   max-height: 250px;
+}
+
+.alert {
+  width: 100%;
+  font-size: 0.95rem;
+  border-radius: 12px;
+}
+
+.alert-green {
+  background: #ECFDF5;
+  color: #059669;
+  border: 1px solid #059669;
+}
+
+.alert-red {
+  background: #FEE2E2;
+  color: #EF4444;
+  border: 1px solid #EF4444;
+}
+
+.haserror {
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 5px rgba(255, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, 0.9);
+  border: 1px solid rgba(255, 0, 0, 0.9) !important;
 }
 
 @media (min-width: 1024px) {
@@ -2695,7 +2828,7 @@ a.button-md-light:hover {
 }
 
 .pourquoi-irchad-section {
-  background: #fcfcfc;
+  background: #FCFCFC;
 }
 
 .pourquoi-irchad-section article p {
@@ -2724,14 +2857,14 @@ a.button-md-light:hover {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1rem;
-  border: 1px solid #7a839e;
+  border: 1px solid #7A839E;
 }
 
 .contact-section select.form-input {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1rem;
-  border: 1px solid #7a839e;
+  border: 1px solid #7A839E;
 }
 
 .soumissionner .field-row {
@@ -2744,8 +2877,7 @@ a.button-md-light:hover {
   margin: 1rem 0;
 }
 
-.soumissionner .form-input,
-.soumissionner .form-lg-input-one {
+.soumissionner .form-input, .soumissionner .form-lg-input-one {
   border-radius: 4px;
 }
 
@@ -2753,21 +2885,21 @@ a.button-md-light:hover {
   width: calc(100% - 0rem);
   padding: 0.35rem 0.5rem;
   font-size: 1rem;
-  border: 1px solid #7a839e;
+  border: 1px solid #7A839E;
 }
 
 .soumissionner select.form-input {
   width: 100%;
   padding: 0.35rem 0.5rem;
   font-size: 1rem;
-  border: 1px solid #7a839e;
+  border: 1px solid #7A839E;
 }
 
 .soumissionner .column-11 h4 {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  color: #0d3a74;
+  color: #0D3A74;
 }
 
 .soumissionner .column-11 p {
@@ -2795,7 +2927,7 @@ a.button-md-light:hover {
   position: absolute;
   left: calc(50% - 1px);
   top: 0px;
-  background: #0d3a74;
+  background: #0D3A74;
   width: 1px;
   z-index: -1;
   height: 100%;
@@ -2811,8 +2943,7 @@ a.button-md-light:hover {
   margin: 1rem 0;
 }
 
-.seconnecter .form-input,
-.seconnecter .form-lg-input-one {
+.seconnecter .form-input, .seconnecter .form-lg-input-one {
   border-radius: 1.2rem;
   box-shadow: 0px 2.5px 5px -4px #000;
 }
@@ -2860,7 +2991,7 @@ a.button-md-light:hover {
 
 /* When the checkbox is checked, add a blue background */
 .form-checkbox input:checked ~ .checkmark {
-  background-color: #0d3a74;
+  background-color: #0D3A74;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -2889,7 +3020,7 @@ a.button-md-light:hover {
 }
 
 input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: #2196F3;
 }
 
 .seconnecter h3 {
@@ -2904,14 +3035,14 @@ input:checked ~ .checkmark {
   margin-bottom: 2rem;
 }
 .programme .card p {
-  color: #7a839e;
+  color: #7A839E;
 }
 .programme .card:after {
   content: " ";
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url("../images/right-border-card.svg");
+  background-image: url("../../images/right-border-card.svg");
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
@@ -2919,20 +3050,21 @@ input:checked ~ .checkmark {
 
 .apropos .card {
   position: relative;
-  width: 20%;
+  width: 100%;
+  height: 100%;
   padding: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
   margin-bottom: 2rem;
 }
 .apropos .card p {
-  color: #7a839e;
+  color: #7A839E;
 }
 .apropos .card:after {
   content: " ";
   position: absolute;
   right: 0;
   top: 10%;
-  background-image: url("../images/right-border-card.svg");
+  background-image: url("../../images/right-border-card.svg");
   background-repeat: no-repeat;
   width: 3px;
   height: 100%;
@@ -2946,7 +3078,7 @@ input:checked ~ .checkmark {
   margin-bottom: 2rem;
 }
 .faq .card p {
-  color: #7a839e;
+  color: #7A839E;
 }
 .faq .card:after {
   content: " ";
@@ -2956,15 +3088,22 @@ input:checked ~ .checkmark {
   width: 3px;
   height: 100%;
 }
+.faq .card h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0969C9;
+}
 
 .contact-single .card {
+  width: 100%;
   position: relative;
+  height: 100%;
   padding: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
   margin-bottom: 2rem;
 }
 .contact-single .card p {
-  color: #7a839e;
+  color: #7A839E;
 }
 
 @media (min-width: 475px) {
@@ -2981,6 +3120,11 @@ input:checked ~ .checkmark {
   .px-md-2 {
     padding-left: 0.6rem;
     padding-right: 0.6rem;
+  }
+
+  .faq .card h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
   }
 
   .pourquoi-irchad-section img {
@@ -3005,10 +3149,10 @@ input:checked ~ .checkmark {
   }
 
   .contact-section .form-lg-input {
-    width: calc(100% - 2rem);
+    width: calc(100% - 1rem);
     padding: 1rem 1rem;
     font-size: 1rem;
-    border: 1px solid #7a839e;
+    border: 1px solid #7A839E;
   }
 
   .soumissionner .field-lg-row {
@@ -3026,20 +3170,20 @@ input:checked ~ .checkmark {
     width: calc(100% - 1rem);
     padding: 0.35rem 0.5rem;
     font-size: 1rem;
-    border: 1px solid #7a839e;
+    border: 1px solid #7A839E;
   }
 
   .soumissionner .form-lg-input-one {
     width: 100%;
     padding: 0.35rem 0.5rem;
     font-size: 1rem;
-    border: 1px solid #7a839e;
+    border: 1px solid #7A839E;
   }
 
   .soumissionner select.form-lg-input {
     width: calc(100% - 1.6rem);
     padding: 0.35rem 0.5rem;
     font-size: 1rem;
-    border: 1px solid #7a839e;
+    border: 1px solid #7A839E;
   }
 }

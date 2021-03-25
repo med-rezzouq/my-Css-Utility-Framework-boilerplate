@@ -341,3 +341,7 @@ template {
 [hidden] {
   display: none;
 }
+
+fieldset {
+  border: none;
+}

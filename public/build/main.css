@@ -2659,14 +2659,16 @@ header::before {
   }
 }
 .button-md {
+  border: none;
   border-radius: 1.2rem;
 }
 
-a.button-md:hover {
+a.button-md:hover,
+input.button-md:hover {
   background: #0961AA;
 }
 
-.button-md-ligh {
+.button-md-light {
   border-radius: 1.2rem;
 }
 
@@ -2759,6 +2761,31 @@ a.button-md-light:hover {
   min-height: 250px;
   height: 250px;
   max-height: 250px;
+}
+
+.alert {
+  width: 100%;
+  font-size: 0.95rem;
+  border-radius: 12px;
+}
+
+.alert-green {
+  background: #ECFDF5;
+  color: #059669;
+  border: 1px solid #059669;
+}
+
+.alert-red {
+  background: #FEE2E2;
+  color: #EF4444;
+  border: 1px solid #EF4444;
+}
+
+.haserror {
+  box-shadow: 0 0 2px rgba(255, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 2px rgba(255, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 2px rgba(255, 0, 0, 0.9);
+  border: 1px solid rgba(255, 0, 0, 0.9) !important;
 }
 
 @media (min-width: 1024px) {

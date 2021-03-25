@@ -8,7 +8,8 @@
   margin: 1rem 0;
 }
 
-.soumissionner .form-input, .soumissionner .form-lg-input-one {
+.soumissionner .form-input,
+.soumissionner .form-lg-input-one {
   border-radius: 4px;
 }
 
@@ -62,4 +63,20 @@
   width: 1px;
   z-index: -1;
   height: 100%;
+}
+
+.logical-fields {
+  display: none;
+}
+
+.minimized {
+  display: none;
+}
+
+#contentForm {
+  min-height: 300px;
+}
+
+ul#form-errors li {
+  list-style-type: disc;
 }

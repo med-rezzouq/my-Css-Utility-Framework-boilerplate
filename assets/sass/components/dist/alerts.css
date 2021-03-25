@@ -1,0 +1,17 @@
+.alert {
+  width: 100%;
+  font-size: 0.95rem;
+  border-radius: 12px;
+}
+
+.alert-green {
+  background: #ECFDF5;
+  color: #059669;
+  border: 1px solid #059669;
+}
+
+.alert-red {
+  background: #FEE2E2;
+  color: #EF4444;
+  border: 1px solid #EF4444;
+}

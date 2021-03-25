@@ -1,0 +1,22 @@
+@use '../helpers' as helpers;
+
+.alert{
+    width:100%;
+    font-size:0.95rem;
+    border-radius: 12px;
+}
+
+.alert-green{
+    background:helpers.$greenInit;
+    color:helpers.$greenDark;  
+    border:1px solid helpers.$greenDark;
+ 
+}
+
+.alert-red{
+    background:helpers.$redInit;
+    color:helpers.$redDark;
+    border:1px solid helpers.$redDark;
+  
+}
+

@@ -745,6 +745,11 @@ ul {
   margin: 8rem;
 }
 
+.my0 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
 .my1 {
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
