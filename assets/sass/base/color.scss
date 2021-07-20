@@ -4,6 +4,7 @@
 color: helpers.$blueInit;
 }
 
+
 .white{
     color:#fff;
 }
@@ -11,20 +12,26 @@ color: helpers.$blueInit;
     background:#fff;
 }
 
-.blueInitbg{
-    background: helpers.$blueInit;
-    }
-.blueDarkBg{
-    background: helpers.$blueDark;
-    }
-    
-    .blueDark{
-        color: helpers.$blueDark;
-        }
 
-    .greyBlue{
-        color:helpers.$greyBlue;
+
+    .greyLight{
+        color:helpers.$greyLight;
     }
+
+    .grey{
+        color:helpers.$grey;
+    }
+
+    .greyDark{
+        color:helpers.$greyDark;
+    }
+
+    .yellowDark{
+        color:helpers.$yellowDark;
+    }
+
+
+
 
     .green-primary{
         color:helpers.$greenPrimary;

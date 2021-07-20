@@ -1,7 +1,3 @@
-.blueInit {
-  color: #0969C9;
-}
-
 .white {
   color: #fff;
 }
@@ -10,30 +6,18 @@
   background: #fff;
 }
 
-.blueInitbg {
-  background: #0969C9;
+.greyLight {
+  color: #f5f1ee;
 }
 
-.blueDarkBg {
-  background: #0D3A74;
+.grey {
+  color: #cccdce;
 }
 
-.blueDark {
-  color: #0D3A74;
+.greyDark {
+  color: #afb0b2;
 }
 
-.greyBlue {
-  color: #7A839E;
-}
-
-.green-primary {
-  color: #64D88D;
-}
-
-.green-primary-bg {
-  background: #64D88D;
-}
-
-.blue-middle-bg {
-  background: #0961AA;
+.yellowDark {
+  color: #fecc15;
 }

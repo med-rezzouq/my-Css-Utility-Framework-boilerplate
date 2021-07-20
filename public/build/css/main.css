@@ -82,7 +82,7 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
+  border-bottom: 0;
   /* 1 */
   text-decoration: underline;
   /* 2 */
@@ -359,20 +359,20 @@ fieldset {
   background: #fff;
 }
 
-.blueInitbg {
-  background: #0969C9;
+.greyLight {
+  color: #f5f1ee;
 }
 
-.blueDarkBg {
-  background: #0D3A74;
+.grey {
+  color: #cccdce;
 }
 
-.blueDark {
-  color: #0D3A74;
+.greyDark {
+  color: #afb0b2;
 }
 
-.greyBlue {
-  color: #7A839E;
+.yellowDark {
+  color: #fecc15;
 }
 
 .green-primary {
@@ -590,7 +590,7 @@ body, html {
 }
 
 p {
-  margin: none;
+  margin: 0;
 }
 
 ul {
@@ -1399,7 +1399,7 @@ h1.section-h1-center {
   padding: 0.5rem 0 1rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h1.svg?7402058c6d58db154d7084011aa793f5) no-repeat;
+  background: url(/images/section-h1.svg?10585e30abbf464601357208d5f391a2) no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1410,7 +1410,7 @@ h3.section-h3-center {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
+  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
   background-position-y: 95%;
   background-position-x: center;
 }
@@ -1421,7 +1421,7 @@ h3.section-h3 {
   padding: 0.5rem 0;
   display: inline-block;
   margin: auto;
-  background: url(/images/section-h3.svg?3b4eefbe2de1ef0137989ada5125e3d2) no-repeat;
+  background: url(/images/section-h3.svg?59eaa359e7882e16c2139d2d212585c9) no-repeat;
   background-position-y: 95%;
   background-position-x: 0%;
 }
@@ -1478,7 +1478,7 @@ h3.section-h3 {
     padding: 0.5rem 0 1rem 0;
     display: inline-block;
     margin: auto;
-    background: url(/images/section-h1.svg?7402058c6d58db154d7084011aa793f5) no-repeat;
+    background: url(/images/section-h1.svg?10585e30abbf464601357208d5f391a2) no-repeat;
     background-position-y: 95%;
     background-position-x: center;
   }
@@ -2468,7 +2468,7 @@ nav.nav-desktop {
 
 .flex-nav li:not(:last-of-type) a:hover {
   padding-bottom: 0.5rem;
-  background: url(/images/line1.svg?043bceeccece4820dbfc739e58cd92df) no-repeat;
+  background: url(/images/line1.svg?be0928830241ce52a7184ecaa059a10a) no-repeat;
   background-position: 0px bottom;
 }
 
@@ -2523,7 +2523,7 @@ header {
 
 header::before {
   content: "";
-  background: url(/images/welcomebg.svg?ecf67bc9d50e3b5ca1d998307011c086);
+  background: url(/images/welcomebg.svg?dc7e57b8e32293e76fb0401e35925b03);
   height: 100%;
   opacity: 0.6;
   width: 100%;
@@ -2682,7 +2682,7 @@ input.button-md:hover {
 }
 
 a.button-md-light:hover {
-  color: #aeaeae;
+  color: #f5f1ee;
 }
 
 .button-md-cercle {
@@ -2800,385 +2800,5 @@ a.button-md-light:hover {
 @media (min-width: 1024px) {
   .flex-burger {
     display: none;
-  }
-}
-.pourquoi-irchad-section img {
-  height: 120px;
-  width: 80px;
-}
-
-.pourquoi-irchad-section {
-  background: #FCFCFC;
-}
-
-.pourquoi-irchad-section article p {
-  max-width: 50ch;
-}
-
-.pourquoi-irchad-section article.ml {
-  margin-left: 2rem;
-}
-
-.pourquoi-irchad-section article.mr {
-  margin-right: 2rem;
-}
-
-.contact-section .field-row {
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-section .field-input {
-  padding: 0 0rem;
-  margin: 1rem 0;
-}
-
-.contact-section .form-input {
-  width: 100%;
-  padding: 1rem 1rem;
-  font-size: 1rem;
-  border: 1px solid #7A839E;
-}
-
-.contact-section select.form-input {
-  width: 100%;
-  padding: 1rem 1rem;
-  font-size: 1rem;
-  border: 1px solid #7A839E;
-}
-
-.soumissionner .field-row {
-  justify-content: center;
-  align-items: center;
-}
-
-.soumissionner .field-input {
-  padding: 0 0rem;
-  margin: 1rem 0;
-}
-
-.soumissionner .form-input,
-.soumissionner .form-lg-input-one {
-  border-radius: 4px;
-}
-
-.soumissionner .form-input {
-  width: calc(100% - 0rem);
-  padding: 0.35rem 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #7A839E;
-}
-
-.soumissionner select.form-input {
-  width: 100%;
-  padding: 0.35rem 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #7A839E;
-}
-
-.soumissionner .column-11 h4 {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  color: #0D3A74;
-}
-
-.soumissionner .column-11 p {
-  margin: 0;
-  padding: 0;
-  font-size: 0.9rem;
-}
-
-.soumissionner .column-11 h3 {
-  margin: 0;
-  padding: 0;
-  color: #000;
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.soumissionner .column-11 p.second-par {
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-}
-
-.my-steps::after {
-  content: "";
-  position: absolute;
-  left: calc(50% - 1px);
-  top: 0px;
-  background: #0D3A74;
-  width: 1px;
-  z-index: -1;
-  height: 100%;
-}
-
-.logical-fields {
-  display: none;
-}
-
-.minimized {
-  display: none;
-}
-
-#contentForm {
-  min-height: 300px;
-}
-
-ul#form-errors li {
-  list-style-type: disc;
-}
-
-.seconnecter .field-row {
-  justify-content: center;
-  align-items: center;
-}
-
-.seconnecter .field-input {
-  padding: 0 0rem;
-  margin: 1rem 0;
-}
-
-.seconnecter .form-input, .seconnecter .form-lg-input-one {
-  border-radius: 1.2rem;
-  box-shadow: 0px 2.5px 5px -4px #000;
-}
-
-.seconnecter .form-input:focus {
-  outline: none;
-}
-
-.seconnecter .form-input {
-  width: 100%;
-  padding: 0.4rem 0.5rem;
-  font-size: 1rem;
-  border: none;
-}
-
-/* Hide the browser's default checkbox */
-.form-checkbox input {
-  margin-right: 1rem;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 20%;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-}
-
-.labelmark {
-  position: absolute;
-  top: 0;
-  left: 37%;
-}
-
-/* On mouse-over, add a grey background color */
-.form-checkbox:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background */
-.form-checkbox input:checked ~ .checkmark {
-  background-color: #0D3A74;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the checkmark when checked */
-.form-checkbox input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the checkmark/indicator */
-.form-checkbox .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-}
-
-input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-
-.seconnecter h3 {
-  font-weight: 500;
-}
-
-.programme .card {
-  position: relative;
-  width: 45%;
-  padding: 30px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
-  margin-bottom: 2rem;
-}
-.programme .card p {
-  color: #7A839E;
-}
-.programme .card:after {
-  content: " ";
-  position: absolute;
-  right: 0;
-  top: 10%;
-  background-image: url(/images/right-border-card.svg?54ad94431786a86c09e3add918ec0e54);
-  background-repeat: no-repeat;
-  width: 3px;
-  height: 100%;
-}
-
-.apropos .card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 30px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
-  margin-bottom: 2rem;
-}
-.apropos .card p {
-  color: #7A839E;
-}
-.apropos .card:after {
-  content: " ";
-  position: absolute;
-  right: 0;
-  top: 10%;
-  background-image: url(/images/right-border-card.svg?54ad94431786a86c09e3add918ec0e54);
-  background-repeat: no-repeat;
-  width: 3px;
-  height: 100%;
-}
-
-.faq .card {
-  position: relative;
-  width: 90%;
-  padding: 10px 30px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
-  margin-bottom: 2rem;
-}
-.faq .card p {
-  color: #7A839E;
-}
-.faq .card:after {
-  content: " ";
-  position: absolute;
-  right: 0;
-  top: 10%;
-  width: 3px;
-  height: 100%;
-}
-.faq .card h3 {
-  font-weight: 500;
-  font-size: 1rem;
-  color: #0969C9;
-}
-
-.contact-single .card {
-  width: 100%;
-  position: relative;
-  height: 100%;
-  padding: 30px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.159);
-  margin-bottom: 2rem;
-}
-.contact-single .card p {
-  color: #7A839E;
-}
-
-@media (min-width: 475px) {
-  .px-xxs-2 {
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
-  }
-}
-@media (min-width: 768px) {
-  .mr-md-3 {
-    margin-left: 0.9rem;
-  }
-
-  .px-md-2 {
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
-  }
-
-  .faq .card h3 {
-    font-weight: 500;
-    font-size: 1.3rem;
-  }
-
-  .pourquoi-irchad-section img {
-    height: 110px;
-    width: 120px;
-  }
-}
-@media (min-width: 1024px) {
-  .mr-lg-3 {
-    margin-left: 0.9rem;
-  }
-
-  .contact-section .field-lg-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .contact-section .field-lg-input {
-    padding: 0 0rem 0 0rem;
-    margin: 1rem 0;
-  }
-
-  .contact-section .form-lg-input {
-    width: calc(100% - 1rem);
-    padding: 1rem 1rem;
-    font-size: 1rem;
-    border: 1px solid #7A839E;
-  }
-
-  .soumissionner .field-lg-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .soumissionner .field-lg-input {
-    padding: 0 0rem 0 0rem;
-    margin: 1rem 0;
-  }
-
-  .soumissionner .form-lg-input {
-    width: calc(100% - 1rem);
-    padding: 0.35rem 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #7A839E;
-  }
-
-  .soumissionner .form-lg-input-one {
-    width: 100%;
-    padding: 0.35rem 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #7A839E;
-  }
-
-  .soumissionner select.form-lg-input {
-    width: calc(100% - 1.6rem);
-    padding: 0.35rem 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #7A839E;
   }
 }

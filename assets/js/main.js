@@ -73,17 +73,3 @@ document.querySelectorAll(".minusicon").forEach((minus) => {
     }
   });
 });
-
-window.addEventListener("scroll", function (event) {
-  if (window.scrollY > 100) {
-    headerMenu.classList.add("header-stick");
-    headerMenu.classList.remove("header-before-stick");
-
-    notActiveLang.classList.remove("whiteBg");
-    notActiveLang.classList.add("whiteBg");
-  } else {
-    headerMenu.classList.remove("header-stick");
-    headerMenu.classList.add("header-before-stick");
-    notActiveLang.classList.remove("whiteBg");
-  }
-});
